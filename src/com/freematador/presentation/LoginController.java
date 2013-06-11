@@ -7,8 +7,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.freematador.business.SrvSeguridad;
-import com.freematador.business.SrvSeguridadImpl;
+import com.freematador.business.SecurityServer;
+import com.freematador.business.SecurityServerImpl;
 import com.freematador.utils.BaseController;
 import com.freematador.utils.ExcepcionGuap;
 
@@ -18,7 +18,7 @@ public class LoginController extends BaseController {
 
 	private static final long serialVersionUID = 1L;
 
-	private SrvSeguridad srvSeguridad = new SrvSeguridadImpl();
+	private SecurityServer srvSeguridad = new SecurityServerImpl();
 	
 	@Override
 	protected void process(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
