@@ -1,0 +1,1318 @@
+!SESSION 2013-06-12 00:23:04.552 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 00:36:38.596
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 00:36:43.657
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 00:36:49.169
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 00:37:12.654
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 00:37:12.663
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 00:37:12.663
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 00:37:26.533
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 00:37:35.606
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 00:37:41.115
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 01:49:29.124
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 01:49:29.130
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 01:49:29.130
+!MESSAGE Server processes have been terminated.
+!SESSION 2013-06-12 02:02:21.488 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:04:19.117
+!MESSAGE 36 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 03:04:24.398
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 03:04:30.120
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 03:04:30.209
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-12 03:04:50.764
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:05:00.124
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:08:37.095
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:08:37.096
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:08:37.097
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 03:09:19.618
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 03:09:25.134
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:14:26.241
+!MESSAGE 8 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:14:27.665
+!MESSAGE 27 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:14:35.187
+!MESSAGE 28 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:14:36.405
+!MESSAGE 2 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:14:41.460
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:14:41.468
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:14:41.468
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:15:00.000
+!MESSAGE 28 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 03:15:05.025
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 03:15:10.537
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 03:15:10.598
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-12 03:15:31.201
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:16:20.642
+!MESSAGE Module freematador published without error.
+
+!ENTRY unknown 0 0 2013-06-12 03:16:56.085
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:16:59.202
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:16:59.209
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:16:59.209
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:17:10.348
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 03:17:15.382
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 03:17:20.894
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 03:17:21.084
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:17:39.506
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:17:39.511
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:17:39.512
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-12 03:17:46.615
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:20:29.090
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 03:20:34.126
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 03:20:39.635
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 03:20:39.806
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-12 03:21:00.431
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:21:15.498
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:21:15.505
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:21:15.506
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:29:44.752
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 03:29:49.787
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 03:29:55.299
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 03:29:55.393
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:30:12.303
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:30:12.309
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:30:12.310
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-12 03:30:20.885
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:30:36.188
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 03:30:44.881
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 03:30:50.393
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:34:04.644
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY unknown 0 0 2013-06-12 03:34:31.708
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:37:10.325
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:37:10.328
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:37:10.328
+!MESSAGE Server processes have been terminated.
+!SESSION 2013-06-12 03:41:38.509 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:43:20.061
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 03:43:25.347
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 03:43:30.973
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 03:43:31.010
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:43:49.130
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:43:49.137
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:43:49.137
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-12 03:43:56.589
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 03:47:25.216
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 03:47:30.262
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 03:47:35.771
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 03:47:35.922
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:47:46.249
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:47:46.255
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 03:47:46.256
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-12 03:48:02.228
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+!SESSION 2013-06-12 22:08:51.929 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:09:22.130
+!MESSAGE 28 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 22:09:27.439
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 22:09:33.163
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 22:09:33.203
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-12 22:09:53.782
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:09:54.589
+!MESSAGE Module freematador published without error.
+
+!ENTRY unknown 0 0 2013-06-12 22:10:54.595
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:11:52.363
+!MESSAGE Module RegistroUsuarios published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 22:11:52.576
+!MESSAGE Module RegistroUsuarios on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY unknown 0 0 2013-06-12 22:12:28.073
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:12:41.359
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 22:12:41.571
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-12 22:13:02.034
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:13:50.261
+!MESSAGE 32 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:13:53.640
+!MESSAGE 2 files modified in module freematador
+
+!ENTRY unknown 0 0 2013-06-12 22:14:01.837
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:14:06.231
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 22:14:06.478
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-12 22:14:26.923
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:15:43.748
+!MESSAGE 32 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:15:47.304
+!MESSAGE 2 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 22:15:48.928
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 22:15:48.936
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 22:15:48.936
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:16:00.431
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 22:16:05.461
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 22:16:10.971
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 22:16:11.079
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-12 22:16:31.579
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:17:41.155
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:17:55.958
+!MESSAGE 4 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:17:57.222
+!MESSAGE 27 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:18:30.119
+!MESSAGE 2 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 22:18:47.873
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 22:18:47.879
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 22:18:47.879
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:19:57.409
+!MESSAGE 28 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 22:20:02.438
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 22:20:07.950
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 22:20:08.118
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY unknown 0 0 2013-06-12 22:20:13.399
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:20:28.299
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 22:20:28.564
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-12 22:20:28.686
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-12 22:20:49.007
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY unknown 0 0 2013-06-12 22:27:35.310
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:27:45.070
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 22:27:45.214
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2013-06-12 22:28:02.528
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 22:28:02.924
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 22:28:02.925
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 22:28:02.925
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 22:28:16.335
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 22:28:21.845
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:29:16.948
+!MESSAGE 1 files modified in module elsubonline
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:30:03.976
+!MESSAGE 1 files modified in module elsubonline
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:30:19.110
+!MESSAGE 1 files modified in module elsubonline
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:30:33.647
+!MESSAGE 1 files modified in module elsubonline
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:30:38.642
+!MESSAGE 2 files modified in module elsubonline
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:31:04.891
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:33:46.121
+!MESSAGE 25 files modified in module elsubonline
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:34:06.180
+!MESSAGE 25 files modified in module elsubonline
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:34:17.312
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:46:42.555
+!MESSAGE 26 files modified in module elsubonline
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:47:00.196
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 22:49:18.862
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 22:49:18.889
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 22:49:18.889
+!MESSAGE Server processes have been terminated.
+!SESSION 2013-06-12 22:53:38.942 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:54:19.314
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:54:19.333
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 22:54:24.634
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 22:54:30.353
+!MESSAGE Server Startup Succeeded
+
+!ENTRY unknown 0 0 2013-06-12 22:54:46.867
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-12 22:54:46.871
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 22:54:53.732
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-12 22:54:54.003
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 23:20:23.645
+!MESSAGE 118 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 23:20:30.618
+!MESSAGE 27 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 23:20:32.849
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 23:20:32.924
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-12 23:20:32.988
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-12 23:25:07.113
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-12 23:25:12.156
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-12 23:25:17.667
+!MESSAGE Server Startup Succeeded
+!SESSION 2013-06-13 00:12:31.432 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:14:53.457
+!MESSAGE 2 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:14:53.461
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:14:53.473
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:14:53.476
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 00:14:58.778
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 00:15:04.404
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-13 00:15:04.449
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY unknown 0 0 2013-06-13 00:15:11.891
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2013-06-13 00:15:18.388
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 00:15:18.472
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 00:15:18.475
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 00:15:18.476
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.jmx.integration 4 0 2013-06-13 00:15:25.035
+!MESSAGE Error connecting to jmx for server JBoss 7.1 JDK 7 Server
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Unable to reach JBoss instance. Please ensure your server is up and exposes its management ports via the -Djboss.bind.address.management=yourwebsite.com system property
+	at org.jboss.ide.eclipse.as.jmx.integration.JBoss71ServerConnection.createConnection(JBoss71ServerConnection.java:87)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:143)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:127)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:116)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.connectToStartedServer(JBossServerConnection.java:233)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection$1.run(JBossServerConnection.java:225)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.RuntimeException: Operation failed with status WAITING
+	at org.jboss.remotingjmx.RemotingConnector.connect(RemotingConnector.java:154)
+	at javax.management.remote.JMXConnectorFactory.connect(JMXConnectorFactory.java:267)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBoss71ServerConnection.createConnection(JBoss71ServerConnection.java:71)
+	... 6 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.core 4 0 2013-06-13 00:15:25.036
+!MESSAGE Unable to reach JBoss instance. Please ensure your server is up and exposes its management ports via the -Djboss.bind.address.management=yourwebsite.com system property
+!STACK 0
+java.lang.RuntimeException: Operation failed with status WAITING
+	at org.jboss.remotingjmx.RemotingConnector.connect(RemotingConnector.java:154)
+	at javax.management.remote.JMXConnectorFactory.connect(JMXConnectorFactory.java:267)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBoss71ServerConnection.createConnection(JBoss71ServerConnection.java:71)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:143)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:127)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:116)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.connectToStartedServer(JBossServerConnection.java:233)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection$1.run(JBossServerConnection.java:225)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-13 00:15:25.855
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 00:15:30.022
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 00:15:35.533
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-13 00:15:35.671
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-13 00:15:56.160
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:16:23.745
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:16:23.756
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:16:23.760
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:18:47.085
+!MESSAGE 4 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:18:58.021
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:20:47.804
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:22:13.204
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:23:00.974
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:23:52.373
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:23:58.512
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:24:34.811
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:25:24.911
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:25:40.840
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:25:49.944
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:26:11.757
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:26:19.558
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:26:37.287
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:41:36.342
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:41:41.620
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:43:20.742
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 00:43:53.336
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 00:43:53.343
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 00:43:53.344
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 00:44:15.909
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 00:44:21.518
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:45:08.071
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:45:08.081
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:45:08.085
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:46:00.127
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:46:06.679
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:46:06.690
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:46:06.693
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:49:16.532
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:49:20.097
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:49:31.013
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:52:01.410
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:52:01.421
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:52:01.424
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:55:50.948
+!MESSAGE 4 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:56:20.947
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:56:25.604
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:56:25.614
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:56:25.617
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 00:58:53.859
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 00:58:53.871
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 00:58:53.874
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:59:06.379
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:59:06.390
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:59:06.393
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:59:43.817
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:59:43.827
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 00:59:43.831
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 00:59:48.870
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 00:59:54.382
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 01:05:21.221
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 01:05:38.791
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 01:05:38.802
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 01:05:38.805
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 01:06:00.583
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 01:06:00.594
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 01:06:00.597
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY unknown 0 0 2013-06-13 01:06:14.136
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-13 01:06:14.139
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-13 01:06:14.142
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 01:06:19.300
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 01:06:19.311
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 01:06:19.314
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-13 01:06:19.578
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 01:06:33.778
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 01:06:33.787
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 01:06:33.789
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 01:06:44.586
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 01:06:50.098
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 01:08:53.099
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 01:08:53.132
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 01:08:53.133
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 01:09:17.348
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 01:09:22.857
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 01:10:48.966
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 01:10:48.975
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 01:10:48.979
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 01:11:00.941
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 01:11:00.951
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 01:11:00.955
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 01:11:05.990
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 01:11:11.507
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-13 01:11:11.660
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-06-13 01:11:32.194
+!MESSAGE Module freematador on JBoss 7.1 JDK 7 Server still not ready to be shown in browser. Aborting delay.
+!SESSION 2013-06-13 23:24:57.235 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:25:16.996
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:25:17.002
+!MESSAGE 2 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:25:17.006
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 23:25:22.342
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 23:25:28.057
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:26:06.239
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:26:06.257
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:26:06.261
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:29:06.694
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:29:20.705
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:29:33.425
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:29:33.440
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:29:33.444
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:31:02.537
+!MESSAGE 4 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:31:06.799
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:31:55.817
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:31:55.823
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:31:55.828
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:32:05.282
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:32:05.297
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:32:05.303
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 23:32:10.369
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 23:32:15.880
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:32:17.650
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:32:17.655
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:32:17.658
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.jmx.integration 4 0 2013-06-13 23:32:26.062
+!MESSAGE Error connecting to jmx for server JBoss 7.1 JDK 7 Server
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Unable to reach JBoss instance. Please ensure your server is up and exposes its management ports via the -Djboss.bind.address.management=yourwebsite.com system property
+	at org.jboss.ide.eclipse.as.jmx.integration.JBoss71ServerConnection.createConnection(JBoss71ServerConnection.java:87)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:143)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:127)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:116)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.connectToStartedServer(JBossServerConnection.java:233)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection$1.run(JBossServerConnection.java:225)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.RuntimeException: Operation failed with status WAITING
+	at org.jboss.remotingjmx.RemotingConnector.connect(RemotingConnector.java:154)
+	at javax.management.remote.JMXConnectorFactory.connect(JMXConnectorFactory.java:267)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBoss71ServerConnection.createConnection(JBoss71ServerConnection.java:71)
+	... 6 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.core 4 0 2013-06-13 23:32:26.065
+!MESSAGE Unable to reach JBoss instance. Please ensure your server is up and exposes its management ports via the -Djboss.bind.address.management=yourwebsite.com system property
+!STACK 0
+java.lang.RuntimeException: Operation failed with status WAITING
+	at org.jboss.remotingjmx.RemotingConnector.connect(RemotingConnector.java:154)
+	at javax.management.remote.JMXConnectorFactory.connect(JMXConnectorFactory.java:267)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBoss71ServerConnection.createConnection(JBoss71ServerConnection.java:71)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:143)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:127)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:116)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.connectToStartedServer(JBossServerConnection.java:233)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection$1.run(JBossServerConnection.java:225)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:32:32.137
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:32:32.150
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:32:32.154
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 23:32:37.187
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 23:32:42.701
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:35:50.884
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:35:50.896
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:35:50.899
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:36:09.472
+!MESSAGE Module RegistroUsuarios published without error.
+
+!ENTRY unknown 0 0 2013-06-13 23:36:09.479
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-13 23:36:09.484
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-13 23:36:09.487
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 23:36:14.518
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 23:36:20.030
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:37:06.268
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:37:06.274
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:37:06.275
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:37:46.007
+!MESSAGE Module freematador published without error.
+
+!ENTRY unknown 0 0 2013-06-13 23:37:46.011
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 23:37:51.041
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 23:37:56.550
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:40:59.647
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:41:31.641
+!MESSAGE 4 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:41:49.001
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:41:56.045
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:42:11.907
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY unknown 0 0 2013-06-13 23:42:25.759
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:42:32.175
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:42:32.177
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:42:32.177
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:42:48.427
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 23:42:53.451
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 23:42:58.960
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:44:31.526
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:44:32.098
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:44:32.103
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:44:32.103
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:45:21.246
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 23:45:26.272
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 23:45:31.782
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:46:11.558
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:46:24.432
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:46:24.994
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:46:25.000
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:46:25.001
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:46:39.906
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 23:46:44.932
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 23:46:50.441
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:47:25.924
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:47:25.929
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:47:25.930
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:47:56.041
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:47:56.053
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:47:56.057
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY unknown 0 0 2013-06-13 23:47:56.062
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 23:48:01.089
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 23:48:06.598
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:48:44.164
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:48:44.169
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:48:44.171
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 23:49:13.694
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 23:49:19.203
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:51:24.860
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:51:29.909
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:51:32.902
+!MESSAGE 3 files modified in module freematador
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:51:45.046
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:51:45.055
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:51:45.057
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:52:06.571
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:52:06.582
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:52:06.586
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 23:52:11.614
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 23:52:17.124
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:52:24.904
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:52:24.915
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:52:24.918
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:52:59.927
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:52:59.938
+!MESSAGE Module freematador published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-13 23:52:59.941
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-13 23:53:04.967
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-13 23:53:10.476
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:53:26.296
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:53:26.306
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-13 23:53:26.308
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-14 00:18:20.065
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-14 00:18:20.068
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-14 00:18:20.078
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-14 00:18:20.087
+!MESSAGE Module elsubonlineWeb published without error.
+
+!ENTRY unknown 0 0 2013-06-14 00:18:20.090
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-14 00:18:42.355
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-14 00:18:47.868
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-14 00:20:27.427
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-14 00:20:45.352
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-14 00:20:53.986
+!MESSAGE 3 files modified in module elsubonlineEjbs
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-14 00:20:53.999
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-14 00:20:54.005
+!MESSAGE 15 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-14 00:21:05.123
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-14 00:21:05.126
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-14 00:21:05.134
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-14 00:21:05.142
+!MESSAGE Module elsubonlineWeb published without error.

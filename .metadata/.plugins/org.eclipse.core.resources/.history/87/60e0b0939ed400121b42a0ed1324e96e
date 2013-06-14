@@ -1,0 +1,5 @@
+package com.freematador.business;
+
+public class SecurityEJBBean {
+
+}

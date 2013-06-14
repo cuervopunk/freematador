@@ -1,0 +1,8 @@
+package com.freematador.business;
+
+import javax.ejb.Remote;
+
+@Remote
+public interface SecurityEJB {
+
+}

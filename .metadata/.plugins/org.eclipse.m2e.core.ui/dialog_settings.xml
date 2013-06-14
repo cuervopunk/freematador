@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="634" key="height"/>
+		<item value="722" key="width"/>
+		<item value="145" key="y"/>
+		<item value="268" key="x"/>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="freematador"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="freematador"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

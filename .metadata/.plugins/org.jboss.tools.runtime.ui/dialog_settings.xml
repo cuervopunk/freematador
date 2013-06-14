@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="deleteOnExit"/>
+	<item value="/opt/jboss-as-7.1.1.Final" key="lastPath"/>
+	<item value="/tmp" key="defaultDestinationPath"/>
+	<item value="/home/leonardo" key="defaultDialogPath"/>
+</section>
