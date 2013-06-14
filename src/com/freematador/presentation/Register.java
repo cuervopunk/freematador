@@ -2,8 +2,8 @@ package com.freematador.presentation;
 
 import java.io.Serializable;
 
-import javax.annotation.ManagedBean;
 import javax.faces.application.FacesMessage;
+import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
 
@@ -11,12 +11,12 @@ import com.freematador.domain.User;
 
 @ManagedBean
 @ViewScoped
-public class Register implements Serializable{
+public class Register implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	
+
 	private User user;
-	
+
 	public Register() {
 		user = new User();
 	}
@@ -28,6 +28,10 @@ public class Register implements Serializable{
 
 	public User getUser() {
 		return user;
+	}
+	
+	public void setUser(User user) {
+		this.user = user;
 	}
 	
 }

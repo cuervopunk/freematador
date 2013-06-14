@@ -1,6 +1,7 @@
 package com.freematador.domain;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class User {
@@ -13,6 +14,8 @@ public class User {
 	private String password;
 	private List<Role> roles;
 	private Store store;
+	private String username;
+	private Date birthdate;
 	
 	public User() {
 		this.roles = new ArrayList<Role>();
@@ -106,5 +109,22 @@ public class User {
 		}
 		
 	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public Date getBirthdate() {
+		return birthdate;
+	}
+
+	public void setBirthdate(Date birthdate) {
+		this.birthdate = birthdate;
+	}
 	 
+	
 }
