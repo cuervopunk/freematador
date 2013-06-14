@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    
+    <h:head>
+        <title>Registro de usuarios</title>
+    </h:head>
+    
+    <h:body>
+		<h:form id="form">
+		    <h:panelGrid columns="3">
+		        <h:outputLabel for="username">Username</h:outputLabel>
+		        <h:inputText id="username" label="Username" value="#{register.user.name}" required="true">
+		            <f:ajax event="blur" render="usernameMessage" />
+		        </h:inputText>
+		        <h:message id="usernameMessage" for="username" />
+		
+		        <h:outputLabel for="password">Password</h:outputLabel>
+		        <h:inputSecret id="password" label="Password" value="#{register.user.password}" required="true" redisplay="true">
+		            <f:ajax event="blur" render="passwordMessage" />
+		        </h:inputSecret>
+		        <h:message id="passwordMessage" for="password" />
+		
+		        <h:outputLabel for="email">Email</h:outputLabel>
+		        <h:inputText id="email" label="Email" value="#{register.user.email}" required="true">
+		            <f:ajax event="blur" render="emailMessage" />
+		        </h:inputText>
+		        <h:message id="emailMessage" for="email" />
+		
+		        <h:outputLabel for="telephone">Telephone</h:outputLabel>
+		        <h:inputText id="telephone" label="Telephone" value="#{register.user.telephone}">
+		            <f:ajax event="blur" render="telephoneMessage" />
+		        </h:inputText>
+		        <h:message id="telephoneMessage" for="telephone" />
+		
+		        <h:panelGroup />
+		        <h:commandButton value="Register" action="#{register.submit}">
+		            <f:ajax execute="@form" render="@form" />
+		        </h:commandButton>
+		        <h:messages globalOnly="true" layout="table" />
+		    </h:panelGrid>
+		</h:form>    
+    </h:body>
+    
+</html>
