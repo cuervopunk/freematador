@@ -1,6 +1,12 @@
 package com.freematador.domain;
 
-public class Picture {
+import java.io.Serializable;
+
+public class Picture implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String fileName;
 	private String description;
 	

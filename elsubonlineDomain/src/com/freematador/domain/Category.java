@@ -1,9 +1,14 @@
 package com.freematador.domain;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Category {
+public class Category implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String name;
 	private List<Category> subcategories = new ArrayList<Category>();
 	private List<Product> products = new ArrayList<Product>();

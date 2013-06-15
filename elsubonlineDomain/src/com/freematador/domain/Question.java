@@ -1,6 +1,12 @@
 package com.freematador.domain;
 
-public class Question {
+import java.io.Serializable;
+
+public class Question implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String questionText;
 	private String answerText;
 	

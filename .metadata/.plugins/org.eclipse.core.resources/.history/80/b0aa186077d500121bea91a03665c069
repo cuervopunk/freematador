@@ -1,0 +1,20 @@
+package com.freematador.business;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class ProductEJB
+ */
+@Stateless
+@LocalBean
+public class ProductEJB {
+
+    /**
+     * Default constructor. 
+     */
+    public ProductEJB() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

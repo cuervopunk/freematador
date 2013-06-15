@@ -1,8 +1,13 @@
 package com.freematador.domain;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Bid {
+public class Bid implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private float value;
 	private User user;
 	private Date date;

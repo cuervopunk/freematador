@@ -1,0 +1,28 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"
+	template="templates/template.xhtml">
+	<ui:define name="metadata">
+	</ui:define>
+	<ui:define name="content">
+		<!-- <h2 class="title ui-widget-header ui-corner-all">Destacados</h2> -->
+		
+	<p:carousel id="basicCarousel" value="#{home.highlightedProducts}" var="product" numVisible="2">  
+	    <f:facet name="header">  
+	            Destacados  
+	    </f:facet>  
+	    <h:panelGrid columns="1" cellpadding="5" width="200" height="400">  
+	        <p:graphicImage value="/resources/images/products/#{product.pictures[0].fileName}" height="100" width="100"/>
+	        <h:outputText value="#{product.shortDescription}"  />
+	        <h:outputText value="$#{product.basePrice}" />  
+	    </h:panelGrid>  
+	    <!-- 
+	    <f:facet name="footer">  
+	            In total there are ...  
+	    </f:facet>
+	     -->  
+	</p:carousel>   
+	</ui:define>
+</ui:composition>

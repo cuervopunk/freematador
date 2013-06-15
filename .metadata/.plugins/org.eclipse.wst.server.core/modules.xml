@@ -2,6 +2,7 @@
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:elsubonlineEjbs" serverId="JBoss 7.1 JDK 7 Server1371008162304"/>
   <module moduleId="org.eclipse.jst.jee.server:freematador" serverId="JBoss 7.1 JDK 7 Server1371008162304"/>
-  <module moduleId="org.eclipse.jst.jee.server:RegistroUsuarios" serverId="JBoss 7.1 JDK 7 Server1371008162304"/>
+  <module moduleId="org.eclipse.jst.jee.server:elsubonlineWeb" serverId="JBoss 7.1 JDK 7 Server1371008162304"/>
   <module moduleId="org.eclipse.jst.jee.server:elsubonline" serverId="JBoss 7.1 JDK 7 Server1371008162304"/>
+  <module moduleId="org.eclipse.jst.jee.server:RegistroUsuarios" serverId="JBoss 7.1 JDK 7 Server1371008162304"/>
 </modules>
