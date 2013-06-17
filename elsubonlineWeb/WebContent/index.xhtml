@@ -4,10 +4,13 @@
 	xmlns:p="http://primefaces.org/ui"
 	xmlns:f="http://java.sun.com/jsf/core"
 	template="templates/template.xhtml">
+	
 	<ui:define name="metadata">
 	</ui:define>
 	<ui:define name="content">
 		<!-- <h2 class="title ui-widget-header ui-corner-all">Destacados</h2> -->
+	
+	<p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" />
 		
 	<p:carousel id="basicCarousel" value="#{home.highlightedProducts}" var="product" numVisible="3">  
 	    <f:facet name="header">  

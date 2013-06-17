@@ -1,0 +1,5 @@
+package com.freematador.filters;
+
+public class SessionFilter {
+
+}

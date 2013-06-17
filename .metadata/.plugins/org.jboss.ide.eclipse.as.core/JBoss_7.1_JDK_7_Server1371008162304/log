@@ -2794,3 +2794,627 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-15 05:14:22.794
 !MESSAGE 3 files modified in module elsubonlineWeb
+!SESSION 2013-06-16 01:04:57.689 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 01:05:35.259
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 01:05:35.268
+!MESSAGE 5 files modified in module elsubonlineEjbs
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 01:05:35.282
+!MESSAGE 13 files modified in module elsubonlineDomain
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 01:05:35.292
+!MESSAGE 16 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-16 01:05:40.675
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-16 01:05:46.498
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 01:06:08.025
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 01:06:08.031
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 01:06:08.042
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 01:06:08.066
+!MESSAGE Module elsubonlineWeb published without error.
+!SESSION 2013-06-16 18:10:56.626 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:43:24.720
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:43:24.731
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:43:24.764
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:43:24.772
+!MESSAGE 5 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-16 18:43:30.197
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-16 18:43:35.933
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:43:58.159
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:43:58.164
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:43:58.175
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:43:58.225
+!MESSAGE Module elsubonlineWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:47:18.213
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:48:32.120
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:51:37.917
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:52:26.143
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:52:54.422
+!MESSAGE 5 files modified in module elsubonlineEjbs
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:52:54.436
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:52:54.450
+!MESSAGE 18 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-16 18:53:06.743
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-16 18:53:06.747
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-06-16 18:53:06.749
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-16 18:53:17.347
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-16 18:53:22.959
+!MESSAGE Server Startup Succeeded
+
+!ENTRY unknown 0 0 2013-06-16 18:55:16.895
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-16 18:55:16.901
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-16 18:55:16.906
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-16 18:55:16.910
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:55:22.251
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:55:22.257
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:55:22.267
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:55:22.284
+!MESSAGE Module elsubonlineWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-16 18:55:22.629
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:56:12.731
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:56:18.049
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY unknown 0 0 2013-06-16 18:56:25.479
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-16 18:56:25.484
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-16 18:56:25.488
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-16 18:56:25.491
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:56:31.280
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:56:31.286
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:56:31.297
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-16 18:56:31.313
+!MESSAGE Module elsubonlineWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-16 18:56:31.646
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+!SESSION 2013-06-17 00:45:37.957 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:47:23.417
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:47:23.425
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:47:23.441
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:47:23.461
+!MESSAGE Module elsubonlineWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-06-17 00:47:28.877
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-06-17 00:47:34.600
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:53:40.952
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY unknown 0 0 2013-06-17 00:53:50.695
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 00:53:50.699
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 00:53:50.704
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 00:53:50.706
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:53:56.804
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:53:56.810
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:53:56.821
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:53:56.837
+!MESSAGE Module elsubonlineWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-17 00:53:57.245
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:54:45.883
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:55:02.309
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:55:22.090
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY unknown 0 0 2013-06-17 00:55:29.615
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 00:55:29.619
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 00:55:29.623
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 00:55:29.626
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:55:35.270
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:55:35.274
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:55:35.284
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:55:35.300
+!MESSAGE Module elsubonlineWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-17 00:55:35.664
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:56:27.225
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:56:34.301
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY unknown 0 0 2013-06-17 00:56:41.704
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 00:56:41.708
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 00:56:41.711
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 00:56:41.714
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:56:45.546
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:56:45.552
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:56:45.562
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 00:56:45.579
+!MESSAGE Module elsubonlineWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:05:59.823
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY unknown 0 0 2013-06-17 01:06:07.462
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 01:06:07.466
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 01:06:07.469
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 01:06:07.472
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:06:12.393
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:06:12.397
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:06:12.409
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:06:12.424
+!MESSAGE Module elsubonlineWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-17 01:06:12.773
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:06:31.887
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:09:14.100
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:09:20.052
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:15:44.735
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:15:47.891
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY unknown 0 0 2013-06-17 01:16:28.997
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 01:16:29.001
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 01:16:29.005
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 01:16:29.007
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:16:34.471
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:16:34.475
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:16:34.484
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:16:34.500
+!MESSAGE Module elsubonlineWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-17 01:16:34.833
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:17:31.344
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:18:37.092
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:19:09.223
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:20:13.843
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:20:27.843
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:21:27.579
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:21:58.099
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:22:31.986
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:23:49.943
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:24:35.089
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY unknown 0 0 2013-06-17 01:26:49.955
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 01:26:49.958
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 01:26:49.961
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 01:26:49.963
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:26:53.757
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:26:53.761
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:26:53.768
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:26:53.780
+!MESSAGE Module elsubonlineWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-17 01:26:54.112
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:27:27.319
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:28:53.583
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:29:17.875
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:30:42.106
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:31:06.830
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:32:00.195
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:32:34.563
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:32:48.471
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:33:09.987
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:33:33.855
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:33:43.600
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:36:50.524
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:37:15.743
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:38:53.646
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:39:16.253
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:39:30.338
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:39:48.456
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:39:54.279
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:40:25.249
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:42:29.006
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY unknown 0 0 2013-06-17 01:42:49.375
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 01:42:49.377
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 01:42:49.380
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 01:42:49.382
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:42:55.246
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:42:55.250
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:42:55.257
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:42:55.269
+!MESSAGE Module elsubonlineWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-17 01:42:55.572
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:43:42.109
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:44:27.771
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:45:05.475
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:45:23.852
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:45:33.484
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:45:53.081
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:46:00.206
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:46:05.551
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:46:33.152
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:49:11.247
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:49:55.499
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:50:02.126
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:54:41.538
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:55:24.205
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 01:56:44.396
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 02:00:44.644
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY unknown 0 0 2013-06-17 02:00:53.259
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 02:00:53.261
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 02:00:53.264
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 02:00:53.266
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 02:00:57.816
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 02:00:57.819
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 02:00:57.826
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 02:00:57.838
+!MESSAGE Module elsubonlineWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-17 02:00:58.148
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 02:01:42.298
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 02:01:53.003
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 02:02:12.774
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 02:02:27.461
+!MESSAGE 3 files modified in module elsubonlineWeb
+
+!ENTRY unknown 0 0 2013-06-17 02:02:35.020
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 02:02:35.023
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 02:02:35.025
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-06-17 02:02:35.027
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 02:02:39.166
+!MESSAGE Module elsubonline published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 02:02:39.169
+!MESSAGE Module elsubonlineEjbs published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 02:02:39.176
+!MESSAGE Module elsubonlineDomain published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 02:02:39.188
+!MESSAGE Module elsubonlineWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-06-17 02:02:39.506
+!MESSAGE Module elsubonline on JBoss 7.1 JDK 7 Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-06-17 02:04:25.005
+!MESSAGE 3 files modified in module elsubonlineWeb

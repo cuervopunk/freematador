@@ -1,0 +1,53 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+	<script type="text/javascript">  
+	    function handleLoginRequest(xhr, status, args) {  
+	        if(args.validationFailed || !args.loggedIn) {  
+	            dlg.jq.effect("shake", { times:5 }, 100);  
+	        }   
+	        else {  
+	            dlg.hide();  
+	            $('#loginLink').fadeOut();  
+	        }  
+	    }  
+	</script>
+		
+	<h:form id="loginForm">  
+    <p:growl id="growl" showDetail="true" life="3000" />
+    <p:dialog id="dialog" header="Login" widgetVar="dlg" resizable="false">
+        <h:panelGrid columns="2" cellpadding="5">  
+            <h:outputLabel for="email" value="E-mail:" />  
+            <p:inputText value="#{login.user.email}"   
+                    id="email" required="true" label="email" />  
+              
+            <h:outputLabel for="password" value="Password:" />  
+            <h:inputSecret value="#{login.user.password}"   
+                    id="password" required="true" label="password" />  
+              
+            <f:facet name="footer">  
+                <p:commandButton id="loginButton" value="Login" update="growl"   
+                    actionListener="#{login.submit}"   
+                    oncomplete="handleLoginRequest(xhr, status, args)"/>  
+            </f:facet>  
+        </h:panelGrid>  
+    </p:dialog>  
+	</h:form>  
+	
+	<div id="header" class="ui-widget ui-widget-header">
+		<div id="logo">
+			<img src="resources/images/logo2.gif" alt="Logo"/>
+          	<div id="topmenu" style="float:right;padding-right: 20">
+          	<br />
+			    <h:outputLink id="loginLink" value="javascript:void(0)" onclick="dlg.show()" 
+			    	title="login">     
+			        Login   
+			    </h:outputLink>
+			    <h:outputLabel value="#{login.loggedUser}" />
+			</div>
+		</div>		            
+	</div>			
+</ui:composition>
