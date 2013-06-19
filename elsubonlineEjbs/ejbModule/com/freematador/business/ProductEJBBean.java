@@ -59,4 +59,19 @@ public @Stateless class ProductEJBBean implements ProductEJB {
 		
 		return highlightedProducts;
 	}
+	
+	public Product getProduct(long productId) {
+		Product product1 = new Product();
+		product1.setBasePrice(100);
+		product1.setId(1);
+		product1.setLongDescription("BATERIA PARA CELULAR NOKIA / BL-5J / " +
+				"Nokia 5800 X6 5230 5235 C3 5228 NUEVAS CON GARANTIA");
+		product1.setShortDescription("Bateria Celular Nokia Bl-5j Bl5j Nokia 5800 X6 5230");
+		Picture picture1 = new Picture();
+		picture1.setDescription("Bateria");
+		picture1.setFileName("bateria.jpg");
+		product1.getPictures().add(picture1);
+		
+		return product1;
+	}
 }

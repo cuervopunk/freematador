@@ -12,26 +12,26 @@
 	<h:form id="form">
 	    <h:panelGrid columns="2">
 	        <h:outputLabel for="username">Username</h:outputLabel>
-	        <p:inputText id="username" label="Username" value="#{register.user.name}" required="true"> 
+	        <p:inputText id="username" label="Username" value="#{registerManagedBean.user.name}" required="true"> 
 	            <f:ajax event="blur" render="usernameMessage" />
 	        </p:inputText>
 	
 	        <h:outputLabel for="password">Password</h:outputLabel>
-	        <p:password id="password" label="Password" value="#{register.user.password}" required="true" redisplay="true">
+	        <p:password id="password" label="Password" value="#{registerManagedBean.user.password}" required="true" redisplay="true">
 	            <f:ajax event="blur" render="passwordMessage" />
 	        </p:password>
 	
 	        <h:outputLabel for="email">Email</h:outputLabel>
-	        <p:inputText id="email" label="Email" value="#{register.user.email}" required="true">
+	        <p:inputText id="email" label="Email" value="#{registerManagedBean.user.email}" required="true">
 	            <f:ajax event="blur" render="emailMessage" />
 	        </p:inputText>
 	
 	        <h:outputLabel for="telephone">Telephone</h:outputLabel>
-	        <p:inputText id="telephone" label="Telephone" value="#{register.user.telephone}">
+	        <p:inputText id="telephone" label="Telephone" value="#{registerManagedBean.user.telephone}">
 	            <f:ajax event="blur" render="telephoneMessage" />
 	        </p:inputText>
 	
-	        <p:commandButton value="Enviar" action="#{register.submit}">
+	        <p:commandButton value="Enviar" action="#{registerManagedBean.submit}">
 	            <f:ajax execute="@form" render="@form" />
 	        </p:commandButton>
 

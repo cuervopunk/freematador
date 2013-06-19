@@ -6,13 +6,13 @@
 
 	<div id="header" class="ui-widget ui-widget-header">
 		<div id="logo">
-			<img src="resources/images/logo2.gif" alt="Logo"/>
+			<img src="/resources/images/logo2.gif" alt="Logo"/>
           	<div id="topmenu" style="float:right;padding-right: 20">
           	<br />
 			    <h:outputLink id="loginLink" value="javascript:void(0)" onclick="dlg.show()" title="login">     
 			        Login   
 			    </h:outputLink>
- 			    <h:outputText name="logginName" id="logginName" value="#{login.loggedUser}"/>
+ 			    <h:outputText name="logginName" id="logginName" value="#{loginManagedBean.loggedUser}"/>
 			  
 			</div>
 		</div>		            

@@ -6,23 +6,23 @@
 	xmlns:p="http://primefaces.org/ui"
 	xmlns:f="http://java.sun.com/jsf/core">
 	<center>
-		<h:outputText value="Place footer content here..." />
+		<h:outputText value="Built with Freematador" />
 	</center>
 
 	<h:form id="loginForm">  
     <p:dialog id="dialog" header="Login" widgetVar="dlg" resizable="false">
         <h:panelGrid columns="2" cellpadding="5">  
             <h:outputLabel for="email" value="E-mail:" />  
-            <p:inputText value="#{login.user.email}"   
+            <p:inputText value="#{loginManagedBean.user.email}"   
                     id="email" required="true" label="email" />  
               
             <h:outputLabel for="password" value="Password:" />  
-            <h:inputSecret value="#{login.user.password}"   
+            <h:inputSecret value="#{loginManagedBean.user.password}"   
                     id="password" required="true" label="password" />  
               
             <f:facet name="footer">  
                 <p:commandButton id="loginButton" value="Login"
-                    actionListener="#{login.submit}"   
+                    actionListener="#{loginManagedBean.submit}"   
                     oncomplete="handleLoginRequest(xhr, status, args)"/>  
             </f:facet>  
         </h:panelGrid>  

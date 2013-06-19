@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kb-project>
  <depends-on-projects>
-  <project name="elsubonlineEjbs"/>
   <project name="elsubonlineDomain"/>
+  <project name="elsubonlineEjbs"/>
  </depends-on-projects>
  <used-by-projects/>
  <paths>
@@ -26,63 +26,63 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/c-1_0-rt.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/c-1_0-rt.tld" project="elsubonlineEjbs"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/c-1_0.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/c-1_0.tld" project="elsubonlineEjbs"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/c.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/c.tld" project="elsubonlineEjbs"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fmt-1_0-rt.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fmt-1_0-rt.tld" project="elsubonlineEjbs"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fmt-1_0.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fmt-1_0.tld" project="elsubonlineEjbs"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fmt.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fmt.tld" project="elsubonlineEjbs"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fn.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fn.tld" project="elsubonlineEjbs"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/permittedTaglibs.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/permittedTaglibs.tld" project="elsubonlineEjbs"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/scriptfree.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/scriptfree.tld" project="elsubonlineEjbs"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/sql-1_0-rt.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/sql-1_0-rt.tld" project="elsubonlineEjbs"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/sql-1_0.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/sql-1_0.tld" project="elsubonlineEjbs"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/sql.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/sql.tld" project="elsubonlineEjbs"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/x-1_0-rt.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/x-1_0-rt.tld" project="elsubonlineEjbs"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/x-1_0.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/x-1_0.tld" project="elsubonlineEjbs"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/x.tld" project="elsubonlineWeb"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/x.tld" project="elsubonlineEjbs"/>
     </library>
    </libraries>
   </path>
@@ -150,71 +150,85 @@
   <core validator-id="jboss.cdi.core"/>
   <core validator-id="jboss.jsf.core"/>
   <el>
-   <linked-el length="20" name="%0" offset="1610" path="%1"/>
-   <linked-el length="28" name="%0" offset="1439" path="%1"/>
-   <linked-el length="28" name="%0" offset="915" path="%1"/>
-   <linked-el length="25" name="%0" offset="1180" path="%1"/>
-   <linked-el length="24" name="%0" offset="658" path="%1"/>
-   <linked-el length="61" name="%2" offset="787" path="%3"/>
-   <linked-el length="30" name="%2" offset="540" path="%3"/>
-   <linked-el length="24" name="%2" offset="969" path="%3"/>
-   <linked-el length="31" name="%2" offset="905" path="%3"/>
-   <linked-el length="20" name="%4" offset="1610" path="%1"/>
-   <linked-el length="28" name="%4" offset="1439" path="%1"/>
-   <linked-el length="28" name="%4" offset="915" path="%1"/>
-   <linked-el length="25" name="%4" offset="1180" path="%1"/>
-   <linked-el length="24" name="%4" offset="658" path="%1"/>
-   <linked-el length="28" name="%5" offset="1439" path="%1"/>
-   <linked-el length="49" name="%5" offset="997" path="%6"/>
-   <linked-el length="46" name="%5" offset="789" path="%6"/>
-   <linked-el length="28" name="%5" offset="915" path="%1"/>
-   <linked-el length="25" name="%5" offset="1180" path="%1"/>
-   <linked-el length="24" name="%5" offset="658" path="%1"/>
-   <linked-el length="49" name="%7" offset="997" path="%6"/>
-   <linked-el length="42" name="%7" offset="1254" path="%6"/>
-   <linked-el length="46" name="%7" offset="789" path="%6"/>
-   <linked-el length="21" name="%7" offset="500" path="%6"/>
-   <linked-el length="61" name="%8" offset="787" path="%3"/>
-   <linked-el length="30" name="%9" offset="540" path="%3"/>
-   <linked-el length="49" name="%10" offset="997" path="%6"/>
-   <linked-el length="42" name="%10" offset="1254" path="%6"/>
-   <linked-el length="46" name="%10" offset="789" path="%6"/>
-   <linked-el length="21" name="%10" offset="500" path="%6"/>
-   <linked-el length="61" name="%11" offset="787" path="%3"/>
-   <linked-el length="24" name="%11" offset="969" path="%3"/>
-   <linked-el length="31" name="%11" offset="905" path="%3"/>
+   <linked-el length="36" name="%0" offset="1202" path="%1"/>
+   <linked-el length="39" name="%0" offset="926" path="%1"/>
+   <linked-el length="39" name="%0" offset="1472" path="%1"/>
+   <linked-el length="31" name="%0" offset="1654" path="%1"/>
+   <linked-el length="35" name="%0" offset="658" path="%1"/>
+   <linked-el length="41" name="%2" offset="708" path="%3"/>
+   <linked-el length="31" name="%4" offset="916" path="%5"/>
+   <linked-el length="61" name="%4" offset="798" path="%5"/>
+   <linked-el length="24" name="%4" offset="980" path="%5"/>
+   <linked-el length="41" name="%4" offset="540" path="%5"/>
+   <linked-el length="36" name="%6" offset="1202" path="%1"/>
+   <linked-el length="39" name="%6" offset="926" path="%1"/>
+   <linked-el length="39" name="%6" offset="1472" path="%1"/>
+   <linked-el length="35" name="%6" offset="658" path="%1"/>
+   <linked-el length="57" name="%6" offset="700" path="%7"/>
+   <linked-el length="60" name="%6" offset="919" path="%7"/>
+   <linked-el length="32" name="%8" offset="652" path="%9"/>
+   <linked-el length="53" name="%8" offset="1187" path="%7"/>
+   <linked-el length="57" name="%8" offset="700" path="%7"/>
+   <linked-el length="60" name="%8" offset="919" path="%7"/>
+   <linked-el length="61" name="%10" offset="798" path="%5"/>
+   <linked-el length="47" name="%10" offset="797" path="%3"/>
+   <linked-el length="36" name="%11" offset="1202" path="%1"/>
+   <linked-el length="39" name="%11" offset="926" path="%1"/>
+   <linked-el length="39" name="%11" offset="1472" path="%1"/>
+   <linked-el length="31" name="%11" offset="1654" path="%1"/>
+   <linked-el length="35" name="%11" offset="658" path="%1"/>
+   <linked-el length="41" name="%12" offset="708" path="%3"/>
+   <linked-el length="47" name="%12" offset="797" path="%3"/>
+   <linked-el length="32" name="%13" offset="652" path="%9"/>
+   <linked-el length="53" name="%13" offset="1187" path="%7"/>
+   <linked-el length="57" name="%13" offset="700" path="%7"/>
+   <linked-el length="60" name="%13" offset="919" path="%7"/>
+   <linked-el length="41" name="%14" offset="540" path="%5"/>
+   <linked-el length="31" name="%15" offset="916" path="%5"/>
+   <linked-el length="61" name="%15" offset="798" path="%5"/>
+   <linked-el length="24" name="%15" offset="980" path="%5"/>
+   <linked-el length="41" name="%15" offset="708" path="%3"/>
   </el>
  </validation>
  <aliases>
-  <alias path="register" value="%0"/>
   <alias
-   path="/elsubonlineWeb/src/com/freematador/presentation/Register.java" value="%4"/>
-  <alias path="home" value="%2"/>
+   path="/elsubonlineWeb/src/com/freematador/presentation/ProductManagedBean.java" value="%2"/>
+  <alias path="homeManagedBean" value="%4"/>
+  <alias path="registerManagedBean" value="%0"/>
+  <alias path="/elsubonlineWeb/WebContent/guest/product.xhtml" value="%3"/>
   <alias path="/elsubonlineWeb/WebContent/guest/register.xhtml" value="%1"/>
-  <alias path="/elsubonlineDomain/src/com/freematador/domain/User.java" value="%5"/>
+  <alias path="/elsubonlineDomain/src/com/freematador/domain/User.java" value="%6"/>
+  <alias path="loginManagedBean" value="%8"/>
   <alias
-   path="/elsubonlineWeb/src/com/freematador/presentation/Login.java" value="%7"/>
+   path="/elsubonlineDomain/src/com/freematador/domain/Picture.java" value="%10"/>
+  <alias path="/elsubonlineWeb/WebContent/templates/footer.xhtml" value="%7"/>
+  <alias path="/elsubonlineWeb/WebContent/index.xhtml" value="%5"/>
   <alias
-   path="/elsubonlineWeb/src/com/freematador/presentation/Home.java" value="%9"/>
+   path="/elsubonlineWeb/src/com/freematador/presentation/RegisterManagedBean.java" value="%11"/>
+  <alias path="productManagedBean" value="%12"/>
   <alias
-   path="/elsubonlineDomain/src/com/freematador/domain/Picture.java" value="%8"/>
-  <alias path="/elsubonlineWeb/WebContent/templates/footer.xhtml" value="%6"/>
-  <alias path="/elsubonlineWeb/WebContent/index.xhtml" value="%3"/>
-  <alias path="login" value="%10"/>
+   path="/elsubonlineWeb/src/com/freematador/presentation/LoginManagedBean.java" value="%13"/>
   <alias
-   path="/elsubonlineDomain/src/com/freematador/domain/Product.java" value="%11"/>
-  <alias path="%7" value="/elsubonlineWeb/src/com/freematador/presentation/Login.java"/>
-  <alias path="%8" value="/elsubonlineDomain/src/com/freematador/domain/Picture.java"/>
-  <alias path="%5" value="/elsubonlineDomain/src/com/freematador/domain/User.java"/>
-  <alias path="%6" value="/elsubonlineWeb/WebContent/templates/footer.xhtml"/>
-  <alias path="%9" value="/elsubonlineWeb/src/com/freematador/presentation/Home.java"/>
-  <alias path="%0" value="register"/>
-  <alias path="%4" value="/elsubonlineWeb/src/com/freematador/presentation/Register.java"/>
-  <alias path="%3" value="/elsubonlineWeb/WebContent/index.xhtml"/>
-  <alias path="%11" value="/elsubonlineDomain/src/com/freematador/domain/Product.java"/>
-  <alias path="%2" value="home"/>
-  <alias path="%10" value="login"/>
+   path="/elsubonlineDomain/src/com/freematador/domain/Product.java" value="%15"/>
+  <alias
+   path="/elsubonlineWeb/src/com/freematador/presentation/HomeManagedBean.java" value="%14"/>
+  <alias path="/elsubonlineWeb/WebContent/templates/header.xhtml" value="%9"/>
+  <alias path="%0" value="registerManagedBean"/>
+  <alias path="%4" value="homeManagedBean"/>
+  <alias path="%3" value="/elsubonlineWeb/WebContent/guest/product.xhtml"/>
+  <alias path="%2" value="/elsubonlineWeb/src/com/freematador/presentation/ProductManagedBean.java"/>
   <alias path="%1" value="/elsubonlineWeb/WebContent/guest/register.xhtml"/>
+  <alias path="%7" value="/elsubonlineWeb/WebContent/templates/footer.xhtml"/>
+  <alias path="%8" value="loginManagedBean"/>
+  <alias path="%15" value="/elsubonlineDomain/src/com/freematador/domain/Product.java"/>
+  <alias path="%5" value="/elsubonlineWeb/WebContent/index.xhtml"/>
+  <alias path="%14" value="/elsubonlineWeb/src/com/freematador/presentation/HomeManagedBean.java"/>
+  <alias path="%6" value="/elsubonlineDomain/src/com/freematador/domain/User.java"/>
+  <alias path="%9" value="/elsubonlineWeb/WebContent/templates/header.xhtml"/>
+  <alias path="%13" value="/elsubonlineWeb/src/com/freematador/presentation/LoginManagedBean.java"/>
+  <alias path="%12" value="productManagedBean"/>
+  <alias path="%11" value="/elsubonlineWeb/src/com/freematador/presentation/RegisterManagedBean.java"/>
+  <alias path="%10" value="/elsubonlineDomain/src/com/freematador/domain/Picture.java"/>
  </aliases>
  <includes/>
 </kb-project>

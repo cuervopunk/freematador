@@ -9,5 +9,5 @@ import com.freematador.domain.Product;
 @Remote
 public interface ProductEJB {
 	public List<Product> getHighlighedProducts();
-
+	public Product getProduct(long productId);
 }
