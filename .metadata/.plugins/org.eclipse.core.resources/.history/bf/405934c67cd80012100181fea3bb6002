@@ -1,0 +1,24 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+	<div id="header" class="ui-widget ui-widget-header">
+		<div id="logo">
+			<img src="resources/images/logo2.gif" alt="Logo"/>
+          	<div id="topmenu" style="float:right;padding-right: 20">
+          	<br />
+			    <h:outputLink id="loginLink" value="javascript:void(0)" onclick="dlg.show()" title="login">     
+			        Login   
+			    </h:outputLink>
+ 			    <h:outputText name="logginName" id="logginName" value="#{login.loggedUser}"/>
+			  
+			</div>
+		</div>		            
+	</div>			
+
+
+	
+	
+</ui:composition>
