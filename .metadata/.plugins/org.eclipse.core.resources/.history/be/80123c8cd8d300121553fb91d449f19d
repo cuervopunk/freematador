@@ -1,8 +1,0 @@
-package com.freematador.presentation;
-
-import javax.annotation.ManagedBean;
-
-@ManagedBean
-public class RegisterMBean {
-
-}

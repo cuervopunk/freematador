@@ -22,7 +22,12 @@
 		    <ui:repeat value="#{productManagedBean.product.pictures}" var="image">  
 		        <p:graphicImage value="/resources/images/products/#{image.fileName}" />  
 		    </ui:repeat>  
-		</p:imageSwitch>  
+		</p:imageSwitch>
+		<br/>
+		<p:outputLabel value="#{productManagedBean.product.shortDescription}"/><br/><br/>
+		<p:outputLabel value="#{productManagedBean.product.longDescription}"/><br/><br/>
+		<p:outputLabel value="$#{productManagedBean.product.basePrice}"/><br/><br/>
+		<p:outputLabel value="#{productManagedBean.product.ending}"/><br/><br/>
 		
 	</ui:define>
 </ui:composition>

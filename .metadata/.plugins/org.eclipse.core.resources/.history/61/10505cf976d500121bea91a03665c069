@@ -1,9 +1,0 @@
-package com.freematador.presentation;
-
-public class Home {
-
-	public Home() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

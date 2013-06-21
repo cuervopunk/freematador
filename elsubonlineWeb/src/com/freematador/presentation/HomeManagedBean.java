@@ -32,5 +32,7 @@ public class HomeManagedBean implements Serializable{
 		this.highlightedProducts = highlightedProducts;
 	}
 	
+	
+	
 
 }

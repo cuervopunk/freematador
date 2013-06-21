@@ -1,9 +1,0 @@
-INDEX VERSION 1.126
-/home/leonardo/workspaces/ort/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/896196914.index
-/freematador/src
-/home/leonardo/workspaces/ort/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/662041074.index
-/GestionUsuarios/src
-/home/leonardo/workspaces/ort/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4289541261.index
-/GestionUsuarios/src
-/home/leonardo/workspaces/ort/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2840915451.index
-/freematador/src

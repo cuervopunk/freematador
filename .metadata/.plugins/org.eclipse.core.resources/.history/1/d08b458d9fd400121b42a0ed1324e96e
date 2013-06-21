@@ -1,8 +1,0 @@
-package com.freematador.business;
-
-import javax.ejb.Stateless;
-import com.freematador.business.SecurityEJB;
-
-public @Stateless class SecurityEJBBean implements SecurityEJB {
-
-}

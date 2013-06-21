@@ -1,9 +1,0 @@
-package com.freematador.presentation;
-
-public class Home implements Serializable{
-
-	public Home() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
