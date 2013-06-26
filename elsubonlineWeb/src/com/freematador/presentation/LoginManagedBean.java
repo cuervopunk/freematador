@@ -13,6 +13,7 @@ import org.primefaces.context.RequestContext;
 
 import com.freematador.business.SecurityEJB;
 import com.freematador.domain.User;
+import com.freematador.exceptions.BusinessException;
 
 @ManagedBean
 @SessionScoped
@@ -40,22 +41,24 @@ public class LoginManagedBean implements Serializable{
 	public void submit(ActionEvent actionEvent) {  
         RequestContext context = RequestContext.getCurrentInstance();  
         FacesMessage msg = null;  
-        if(user.getEmail() != null && 
-        		user.getEmail().equals("admin") && 
-        		user.getPassword() != null  && 
-        		user.getPassword().equals("admin")) {  
-            loggedIn = true;  
-            loggedUser = "admin";
-            msg = new FacesMessage(FacesMessage.SEVERITY_INFO, "Welcome", user.getName());           
-        } else {  
-            loggedUser = "";
-            loggedIn = false;  
-            msg = new FacesMessage(FacesMessage.SEVERITY_WARN, "Login Error", "Invalid credentials");  
-        }  
+        try {
+			if(securityEjb.loginUser(user)){
+				user = securityEjb.getUserProfile(user.getEmail());
+			    loggedIn = true;  
+			    loggedUser = user.getEmail();
+			    msg = new FacesMessage(FacesMessage.SEVERITY_INFO, "Welcome", user.getName());           
+		        context.update("logginName");
+		        context.addCallbackParam("loggedIn", loggedIn);  
+			} else {  
+			    loggedUser = "";
+			    loggedIn = false;  
+			    msg = new FacesMessage(FacesMessage.SEVERITY_WARN, "Login Error", "Invalid credentials");  
+			}
+		} catch (BusinessException e) {
+	        FacesContext.getCurrentInstance().addMessage(null, msg);  
+			e.printStackTrace();
+		}  
           
-        FacesContext.getCurrentInstance().addMessage(null, msg);  
-        context.update("logginName");
-        context.addCallbackParam("loggedIn", loggedIn);  
     }
 
 	public boolean isLoggedIn() {
