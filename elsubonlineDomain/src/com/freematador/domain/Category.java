@@ -4,11 +4,18 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+@Entity
 public class Category implements Serializable{
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	@Id
+	@GeneratedValue
+	private int id;
 	private String name;
 	private List<Category> subcategories = new ArrayList<Category>();
 	private List<Product> products = new ArrayList<Product>();
@@ -30,5 +37,10 @@ public class Category implements Serializable{
 	public void setProducts(List<Product> products) {
 		this.products = products;
 	}
-
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 }
