@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
-		<item value="true" key="ShowStatusLine"/>
 		<item value="false" key="ShowDerived"/>
+		<item value="true" key="ShowStatusLine"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineWeb/WebContent/templates/header.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineWeb/WebContent/guest/product.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineWeb/WebContent/index.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineWeb/src/com/freematador/presentation/HomeManagedBean.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineDomain/src/com/freematador/domain/Product.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineEjbs/ejbModule/com/freematador/business/ProductEJBBean.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineEjbs/ejbModule/META-INF/persistence.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineEjbs/ejbModule/com/freematador/persistence/UserDAOBean.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineDomain/src/com/freematador/domain/User.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineWeb/src/com/freematador/presentation/LoginManagedBean.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineEjbs/ejbModule/com/freematador/business/SecurityEJBBean.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineEjbs/ejbModule/com/freematador/business/SecurityEJB.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineWeb/WebContent/guest/product.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineWeb/src/com/freematador/presentation/HomeManagedBean.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineDomain/src/com/freematador/domain/Product.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineEjbs/ejbModule/com/freematador/business/ProductEJBBean.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineEjbs/ejbModule/META-INF/persistence.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineEjbs/ejbModule/com/freematador/persistence/UserDAOBean.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineDomain/src/com/freematador/domain/User.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineEjbs/ejbModule/com/freematador/business/SecurityEJBBean.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineEjbs/ejbModule/com/freematador/business/SecurityEJB.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineWeb/WebContent/templates/header.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineWeb/WebContent/templates/footer.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineWeb/WebContent/pages/category1.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineWeb/WebContent/index.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/elsubonlineWeb/src/com/freematador/presentation/LoginManagedBean.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="119" key="DIALOG_Y_ORIGIN"/>
-			<item value="500" key="DIALOG_HEIGHT"/>
 			<item value="474" key="DIALOG_X_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
 			<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>
@@ -20,8 +20,8 @@
 	<section name="CleanDialogSettings">
 		<item value="565" key="DIALOG_WIDTH"/>
 		<item value="227" key="DIALOG_Y_ORIGIN"/>
-		<item value="545" key="DIALOG_X_ORIGIN"/>
 		<item value="374" key="DIALOG_HEIGHT"/>
+		<item value="545" key="DIALOG_X_ORIGIN"/>
 		<item value="false" key="TOGGLE_SELECTED"/>
 	</section>
 </section>

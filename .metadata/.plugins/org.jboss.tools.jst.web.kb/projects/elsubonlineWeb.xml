@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kb-project>
  <depends-on-projects>
-  <project name="elsubonlineEjbs"/>
   <project name="elsubonlineDomain"/>
+  <project name="elsubonlineEjbs"/>
  </depends-on-projects>
  <used-by-projects/>
  <paths>
   <path value="/opt/jboss-as-7.1.1.Final/modules/org/picketbox/main/picketbox-commons-1.0.0.final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/management/j2ee/api/main/jboss-j2eemgmt-api_1.1_spec-1.0.0.Final.jar"/>
-  <path value="/opt/jboss-as-7.1.1.Final/modules/org/picketbox/main/picketbox-4.0.7.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/jms/api/main/jboss-jms-api_1.1_spec-1.0.0.Final.jar"/>
-  <path value="/opt/jboss-as-7.1.1.Final/modules/javax/wsdl4j/api/main/wsdl4j-1.6.2.jar"/>
+  <path value="/opt/jboss-as-7.1.1.Final/modules/org/picketbox/main/picketbox-4.0.7.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/ejb/api/main/jboss-ejb-api_3.1_spec-1.0.1.Final.jar"/>
+  <path value="/opt/jboss-as-7.1.1.Final/modules/javax/wsdl4j/api/main/wsdl4j-1.6.2.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/logging/main/jboss-logging-3.1.0.GA.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/annotation/api/main/jboss-annotations-api_1.1_spec-1.0.0.Final.jar"/>
-  <path value="/opt/jboss-as-7.1.1.Final/modules/javax/xml/ws/api/main/jboss-jaxws-api_2.2_spec-2.0.0.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/mail/api/main/mail-1.4.4.jar"/>
+  <path value="/opt/jboss-as-7.1.1.Final/modules/javax/xml/ws/api/main/jboss-jaxws-api_2.2_spec-2.0.0.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/security/auth/message/api/main/jboss-jaspi-api_1.0_spec-1.0.0.Final.jar"/>
-  <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/as/controller-client/main/jboss-as-controller-client-7.1.1.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/interceptor/api/main/jboss-interceptors-api_1.1_spec-1.0.0.Final.jar"/>
+  <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/as/controller-client/main/jboss-as-controller-client-7.1.1.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/xml/bind/api/main/jboss-jaxb-api_2.2_spec-1.0.3.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/inject/api/main/javax.inject-1.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/resteasy/resteasy-jaxb-provider/main/resteasy-jaxb-provider-2.3.2.Final.jar"/>
@@ -26,71 +26,71 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/c-1_0-rt.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/c-1_0-rt.tld" project="elsubonlineWeb"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/c-1_0.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/c-1_0.tld" project="elsubonlineWeb"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/c.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/c.tld" project="elsubonlineWeb"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fmt-1_0-rt.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fmt-1_0-rt.tld" project="elsubonlineWeb"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fmt-1_0.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fmt-1_0.tld" project="elsubonlineWeb"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fmt.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fmt.tld" project="elsubonlineWeb"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fn.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/fn.tld" project="elsubonlineWeb"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/permittedTaglibs.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/permittedTaglibs.tld" project="elsubonlineWeb"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/scriptfree.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/scriptfree.tld" project="elsubonlineWeb"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/sql-1_0-rt.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/sql-1_0-rt.tld" project="elsubonlineWeb"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/sql-1_0.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/sql-1_0.tld" project="elsubonlineWeb"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/sql.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/sql.tld" project="elsubonlineWeb"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/x-1_0-rt.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/x-1_0-rt.tld" project="elsubonlineWeb"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/x-1_0.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/x-1_0.tld" project="elsubonlineWeb"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/x.tld" project="elsubonlineDomain"/>
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.2.Final.jar/META-INF/x.tld" project="elsubonlineWeb"/>
     </library>
    </libraries>
   </path>
-  <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/resteasy/resteasy-jaxrs/main/async-http-servlet-3.0-2.3.2.Final-jandex.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/resteasy/resteasy-jaxb-provider/main/resteasy-jaxb-provider-2.3.2.Final-jandex.jar"/>
+  <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/resteasy/resteasy-jaxrs/main/async-http-servlet-3.0-2.3.2.Final-jandex.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/dmr/main/jboss-dmr-1.1.1.Final.jar"/>
-  <path value="/opt/jboss-as-7.1.1.Final/modules/javax/ws/rs/api/main/jboss-jaxrs-api_1.1_spec-1.0.0.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/activation/api/main/activation-1.1.1.jar"/>
+  <path value="/opt/jboss-as-7.1.1.Final/modules/javax/ws/rs/api/main/jboss-jaxrs-api_1.1_spec-1.0.0.Final.jar"/>
   <path value="/elsubonlineWeb/faces-config.xml">
    <libraries>
     <library class="faces-config">
@@ -103,18 +103,16 @@
   <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/resteasy/resteasy-jaxrs/main/resteasy-jaxrs-2.3.2.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/el/api/main/jboss-el-api_2.2_spec-1.0.0.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/security/jacc/api/main/jboss-jacc-api_1.4_spec-1.0.1.Final.jar"/>
-  <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/resteasy/resteasy-multipart-provider/main/resteasy-multipart-provider-2.3.2.Final-jandex.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/persistence/api/main/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+  <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/resteasy/resteasy-multipart-provider/main/resteasy-multipart-provider-2.3.2.Final-jandex.jar"/>
   <path value="/home/leonardo/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/ejb3/main/jboss-ejb3-ext-api-2.0.0.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/resteasy/resteasy-jaxrs/main/resteasy-jaxrs-2.3.2.Final-jandex.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/transaction/api/main/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/xml/rpc/api/main/jboss-jaxrpc-api_1.1_spec-1.0.0.Final.jar"/>
-  <path value="/opt/jboss-as-7.1.1.Final/modules/org/hibernate/validator/main/hibernate-validator-4.2.0.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/enterprise/api/main/cdi-api-1.0-SP4.jar"/>
+  <path value="/opt/jboss-as-7.1.1.Final/modules/org/hibernate/validator/main/hibernate-validator-4.2.0.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/servlet/jsp/api/main/jboss-jsp-api_2.2_spec-1.0.0.Final.jar"/>
-  <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/resteasy/resteasy-multipart-provider/main/resteasy-multipart-provider-2.3.2.Final.jar"/>
-  <path value="/opt/jboss-as-7.1.1.Final/modules/javax/xml/soap/api/main/jboss-saaj-api_1.3_spec-1.0.1.Final.jar"/>
   <path value="/home/leonardo/.m2/repository/org/primefaces/primefaces/3.5/primefaces-3.5.jar">
    <libraries>
     <library class="faces-config">
@@ -127,6 +125,8 @@
     </library>
    </libraries>
   </path>
+  <path value="/opt/jboss-as-7.1.1.Final/modules/javax/xml/soap/api/main/jboss-saaj-api_1.3_spec-1.0.1.Final.jar"/>
+  <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/resteasy/resteasy-multipart-provider/main/resteasy-multipart-provider-2.3.2.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/rmi/api/main/jboss-rmi-api_1.0_spec-1.0.4.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/xml/registry/api/main/jboss-jaxr-api_1.0_spec-1.0.1.Final.jar"/>
   <path value="/elsubonlineWeb/WebContent/WEB-INF/faces-config.xml">
@@ -142,8 +142,8 @@
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/validation/api/main/validation-api-1.0.0.GA.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/jws/api/main/jsr181-api-1.0-MR1.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/javax/faces/api/main/jboss-jsf-api_2.1_spec-2.0.1.Final.jar"/>
-  <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/resteasy/resteasy-jaxrs/main/async-http-servlet-3.0-2.3.2.Final.jar"/>
   <path value="/opt/jboss-as-7.1.1.Final/modules/org/picketbox/main/picketbox-infinispan-4.0.7.Final.jar"/>
+  <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/resteasy/resteasy-jaxrs/main/async-http-servlet-3.0-2.3.2.Final.jar"/>
  </paths>
  <validation>
   <core validator-id="jsf-verification"/>
@@ -170,42 +170,45 @@
    <linked-el length="57" name="%6" offset="700" path="%7"/>
    <linked-el length="35" name="%6" offset="658" path="%1"/>
    <linked-el length="60" name="%6" offset="919" path="%7"/>
-   <linked-el length="32" name="%8" offset="651" path="%9"/>
+   <linked-el length="32" name="%8" offset="674" path="%9"/>
    <linked-el length="53" name="%8" offset="1187" path="%7"/>
    <linked-el length="57" name="%8" offset="700" path="%7"/>
    <linked-el length="60" name="%8" offset="919" path="%7"/>
    <linked-el length="61" name="%10" offset="798" path="%3"/>
    <linked-el length="47" name="%10" offset="797" path="%5"/>
-   <linked-el length="36" name="%11" offset="1202" path="%1"/>
-   <linked-el length="39" name="%11" offset="926" path="%1"/>
-   <linked-el length="39" name="%11" offset="1472" path="%1"/>
-   <linked-el length="31" name="%11" offset="1654" path="%1"/>
-   <linked-el length="35" name="%11" offset="658" path="%1"/>
-   <linked-el length="42" name="%12" offset="1093" path="%5"/>
-   <linked-el length="47" name="%12" offset="1009" path="%5"/>
-   <linked-el length="48" name="%12" offset="924" path="%5"/>
-   <linked-el length="38" name="%12" offset="1172" path="%5"/>
-   <linked-el length="41" name="%12" offset="708" path="%5"/>
-   <linked-el length="47" name="%12" offset="797" path="%5"/>
-   <linked-el length="32" name="%13" offset="651" path="%9"/>
-   <linked-el length="53" name="%13" offset="1187" path="%7"/>
-   <linked-el length="57" name="%13" offset="700" path="%7"/>
-   <linked-el length="60" name="%13" offset="919" path="%7"/>
-   <linked-el length="41" name="%14" offset="540" path="%3"/>
-   <linked-el length="31" name="%15" offset="916" path="%3"/>
-   <linked-el length="61" name="%15" offset="798" path="%3"/>
-   <linked-el length="42" name="%15" offset="1093" path="%5"/>
-   <linked-el length="47" name="%15" offset="1009" path="%5"/>
-   <linked-el length="24" name="%15" offset="980" path="%3"/>
-   <linked-el length="48" name="%15" offset="924" path="%5"/>
-   <linked-el length="38" name="%15" offset="1172" path="%5"/>
-   <linked-el length="41" name="%15" offset="708" path="%5"/>
+   <linked-el length="52" name="%11" offset="308" path="%9"/>
+   <linked-el length="36" name="%12" offset="1202" path="%1"/>
+   <linked-el length="39" name="%12" offset="926" path="%1"/>
+   <linked-el length="39" name="%12" offset="1472" path="%1"/>
+   <linked-el length="31" name="%12" offset="1654" path="%1"/>
+   <linked-el length="35" name="%12" offset="658" path="%1"/>
+   <linked-el length="42" name="%13" offset="1093" path="%5"/>
+   <linked-el length="47" name="%13" offset="1009" path="%5"/>
+   <linked-el length="48" name="%13" offset="924" path="%5"/>
+   <linked-el length="38" name="%13" offset="1172" path="%5"/>
+   <linked-el length="41" name="%13" offset="708" path="%5"/>
+   <linked-el length="47" name="%13" offset="797" path="%5"/>
+   <linked-el length="52" name="%14" offset="308" path="%9"/>
+   <linked-el length="32" name="%15" offset="674" path="%9"/>
+   <linked-el length="53" name="%15" offset="1187" path="%7"/>
+   <linked-el length="57" name="%15" offset="700" path="%7"/>
+   <linked-el length="60" name="%15" offset="919" path="%7"/>
+   <linked-el length="41" name="%16" offset="540" path="%3"/>
+   <linked-el length="31" name="%17" offset="916" path="%3"/>
+   <linked-el length="61" name="%17" offset="798" path="%3"/>
+   <linked-el length="42" name="%17" offset="1093" path="%5"/>
+   <linked-el length="47" name="%17" offset="1009" path="%5"/>
+   <linked-el length="24" name="%17" offset="980" path="%3"/>
+   <linked-el length="48" name="%17" offset="924" path="%5"/>
+   <linked-el length="38" name="%17" offset="1172" path="%5"/>
+   <linked-el length="41" name="%17" offset="708" path="%5"/>
   </el>
  </validation>
  <aliases>
   <alias path="homeManagedBean" value="%2"/>
   <alias
    path="/elsubonlineWeb/src/com/freematador/presentation/ProductManagedBean.java" value="%4"/>
+  <alias path="request.contextPath" value="%14"/>
   <alias path="registerManagedBean" value="%0"/>
   <alias path="/elsubonlineWeb/WebContent/guest/product.xhtml" value="%5"/>
   <alias path="/elsubonlineWeb/WebContent/guest/register.xhtml" value="%1"/>
@@ -214,32 +217,35 @@
   <alias
    path="/elsubonlineDomain/src/com/freematador/domain/Picture.java" value="%10"/>
   <alias path="/elsubonlineWeb/WebContent/templates/footer.xhtml" value="%7"/>
+  <alias path="request" value="%11"/>
+  <alias
+   path="/elsubonlineWeb/src/com/freematador/presentation/RegisterManagedBean.java" value="%12"/>
   <alias path="/elsubonlineWeb/WebContent/index.xhtml" value="%3"/>
+  <alias path="productManagedBean" value="%13"/>
   <alias
-   path="/elsubonlineWeb/src/com/freematador/presentation/RegisterManagedBean.java" value="%11"/>
-  <alias path="productManagedBean" value="%12"/>
+   path="/elsubonlineWeb/src/com/freematador/presentation/LoginManagedBean.java" value="%15"/>
   <alias
-   path="/elsubonlineWeb/src/com/freematador/presentation/LoginManagedBean.java" value="%13"/>
+   path="/elsubonlineDomain/src/com/freematador/domain/Product.java" value="%17"/>
   <alias
-   path="/elsubonlineDomain/src/com/freematador/domain/Product.java" value="%15"/>
-  <alias
-   path="/elsubonlineWeb/src/com/freematador/presentation/HomeManagedBean.java" value="%14"/>
+   path="/elsubonlineWeb/src/com/freematador/presentation/HomeManagedBean.java" value="%16"/>
   <alias path="/elsubonlineWeb/WebContent/templates/header.xhtml" value="%9"/>
   <alias path="%0" value="registerManagedBean"/>
   <alias path="%4" value="/elsubonlineWeb/src/com/freematador/presentation/ProductManagedBean.java"/>
   <alias path="%3" value="/elsubonlineWeb/WebContent/index.xhtml"/>
   <alias path="%2" value="homeManagedBean"/>
   <alias path="%1" value="/elsubonlineWeb/WebContent/guest/register.xhtml"/>
+  <alias path="%17" value="/elsubonlineDomain/src/com/freematador/domain/Product.java"/>
   <alias path="%7" value="/elsubonlineWeb/WebContent/templates/footer.xhtml"/>
+  <alias path="%16" value="/elsubonlineWeb/src/com/freematador/presentation/HomeManagedBean.java"/>
   <alias path="%8" value="loginManagedBean"/>
-  <alias path="%15" value="/elsubonlineDomain/src/com/freematador/domain/Product.java"/>
+  <alias path="%15" value="/elsubonlineWeb/src/com/freematador/presentation/LoginManagedBean.java"/>
   <alias path="%5" value="/elsubonlineWeb/WebContent/guest/product.xhtml"/>
-  <alias path="%14" value="/elsubonlineWeb/src/com/freematador/presentation/HomeManagedBean.java"/>
+  <alias path="%14" value="request.contextPath"/>
   <alias path="%6" value="/elsubonlineDomain/src/com/freematador/domain/User.java"/>
   <alias path="%9" value="/elsubonlineWeb/WebContent/templates/header.xhtml"/>
-  <alias path="%13" value="/elsubonlineWeb/src/com/freematador/presentation/LoginManagedBean.java"/>
-  <alias path="%12" value="productManagedBean"/>
-  <alias path="%11" value="/elsubonlineWeb/src/com/freematador/presentation/RegisterManagedBean.java"/>
+  <alias path="%13" value="productManagedBean"/>
+  <alias path="%12" value="/elsubonlineWeb/src/com/freematador/presentation/RegisterManagedBean.java"/>
+  <alias path="%11" value="request"/>
   <alias path="%10" value="/elsubonlineDomain/src/com/freematador/domain/Picture.java"/>
  </aliases>
  <includes/>
