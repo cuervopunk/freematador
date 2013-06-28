@@ -4,18 +4,17 @@ import java.io.Serializable;
 
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.ViewScoped;
+import javax.faces.bean.RequestScoped;
 
 import com.freematador.business.ProductEJB;
 import com.freematador.domain.Product;
 
 @ManagedBean
-@ViewScoped
+@RequestScoped
 public class ProductManagedBean implements Serializable{
 	@EJB
 	private ProductEJB productEjb;
 	private Product product = new Product();
-	
 	
 	private static final long serialVersionUID = 1L;
 
@@ -31,12 +30,16 @@ public class ProductManagedBean implements Serializable{
 	}
 
 	public Product getProduct() {
-		this.product=productEjb.getProduct(1);
 		return product;
 	}
 
 	public void setProduct(Product product) {
 		this.product = product;
+	}
+	
+	public void viewProduct(int id) {
+		System.out.println("Product "+id);
+		this.product=productEjb.getProduct(id);
 	}
 
 }

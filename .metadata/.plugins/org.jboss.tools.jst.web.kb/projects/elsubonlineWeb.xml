@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kb-project>
  <depends-on-projects>
-  <project name="elsubonlineDomain"/>
   <project name="elsubonlineEjbs"/>
+  <project name="elsubonlineDomain"/>
  </depends-on-projects>
  <used-by-projects/>
  <paths>
@@ -146,107 +146,130 @@
   <path value="/opt/jboss-as-7.1.1.Final/modules/org/jboss/resteasy/resteasy-jaxrs/main/async-http-servlet-3.0-2.3.2.Final.jar"/>
  </paths>
  <validation>
-  <core validator-id="jsf-verification"/>
+  <core validator-id="jsf-verification">
+   <linked-resource declaration="true" name="%1;%2;%3;%4;" path="%0"/>
+   <linked-resource declaration="true" name="%1;%2;%3;%4;" path="%5"/>
+  </core>
   <core validator-id="jboss.cdi.core"/>
   <core validator-id="jboss.jsf.core"/>
   <el>
-   <linked-el length="36" name="%0" offset="1202" path="%1"/>
-   <linked-el length="39" name="%0" offset="926" path="%1"/>
-   <linked-el length="39" name="%0" offset="1472" path="%1"/>
-   <linked-el length="31" name="%0" offset="1654" path="%1"/>
-   <linked-el length="35" name="%0" offset="658" path="%1"/>
-   <linked-el length="31" name="%2" offset="916" path="%3"/>
-   <linked-el length="61" name="%2" offset="798" path="%3"/>
-   <linked-el length="24" name="%2" offset="980" path="%3"/>
-   <linked-el length="41" name="%2" offset="540" path="%3"/>
-   <linked-el length="42" name="%4" offset="1093" path="%5"/>
-   <linked-el length="47" name="%4" offset="1009" path="%5"/>
-   <linked-el length="48" name="%4" offset="924" path="%5"/>
-   <linked-el length="38" name="%4" offset="1172" path="%5"/>
-   <linked-el length="41" name="%4" offset="708" path="%5"/>
-   <linked-el length="36" name="%6" offset="1202" path="%1"/>
-   <linked-el length="39" name="%6" offset="926" path="%1"/>
-   <linked-el length="39" name="%6" offset="1472" path="%1"/>
-   <linked-el length="57" name="%6" offset="700" path="%7"/>
-   <linked-el length="35" name="%6" offset="658" path="%1"/>
-   <linked-el length="60" name="%6" offset="919" path="%7"/>
-   <linked-el length="32" name="%8" offset="674" path="%9"/>
-   <linked-el length="53" name="%8" offset="1187" path="%7"/>
-   <linked-el length="57" name="%8" offset="700" path="%7"/>
-   <linked-el length="60" name="%8" offset="919" path="%7"/>
-   <linked-el length="61" name="%10" offset="798" path="%3"/>
-   <linked-el length="47" name="%10" offset="797" path="%5"/>
-   <linked-el length="52" name="%11" offset="308" path="%9"/>
-   <linked-el length="36" name="%12" offset="1202" path="%1"/>
-   <linked-el length="39" name="%12" offset="926" path="%1"/>
-   <linked-el length="39" name="%12" offset="1472" path="%1"/>
-   <linked-el length="31" name="%12" offset="1654" path="%1"/>
-   <linked-el length="35" name="%12" offset="658" path="%1"/>
-   <linked-el length="42" name="%13" offset="1093" path="%5"/>
-   <linked-el length="47" name="%13" offset="1009" path="%5"/>
-   <linked-el length="48" name="%13" offset="924" path="%5"/>
-   <linked-el length="38" name="%13" offset="1172" path="%5"/>
-   <linked-el length="41" name="%13" offset="708" path="%5"/>
-   <linked-el length="47" name="%13" offset="797" path="%5"/>
-   <linked-el length="52" name="%14" offset="308" path="%9"/>
-   <linked-el length="32" name="%15" offset="674" path="%9"/>
-   <linked-el length="53" name="%15" offset="1187" path="%7"/>
-   <linked-el length="57" name="%15" offset="700" path="%7"/>
-   <linked-el length="60" name="%15" offset="919" path="%7"/>
-   <linked-el length="41" name="%16" offset="540" path="%3"/>
-   <linked-el length="31" name="%17" offset="916" path="%3"/>
-   <linked-el length="61" name="%17" offset="798" path="%3"/>
-   <linked-el length="42" name="%17" offset="1093" path="%5"/>
-   <linked-el length="47" name="%17" offset="1009" path="%5"/>
-   <linked-el length="24" name="%17" offset="980" path="%3"/>
-   <linked-el length="48" name="%17" offset="924" path="%5"/>
-   <linked-el length="38" name="%17" offset="1172" path="%5"/>
-   <linked-el length="41" name="%17" offset="708" path="%5"/>
+   <linked-el length="42" name="%6" offset="1108" path="%1"/>
+   <linked-el length="23" name="%6" offset="667" path="%7"/>
+   <linked-el length="47" name="%6" offset="1024" path="%1"/>
+   <linked-el length="48" name="%6" offset="939" path="%1"/>
+   <linked-el length="38" name="%6" offset="1187" path="%1"/>
+   <linked-el length="41" name="%6" offset="708" path="%1"/>
+   <linked-el length="24" name="%8" offset="1153" path="%3"/>
+   <linked-el length="61" name="%8" offset="813" path="%3"/>
+   <linked-el length="32" name="%8" offset="933" path="%3"/>
+   <linked-el length="41" name="%8" offset="540" path="%3"/>
+   <linked-el length="31" name="%8" offset="1060" path="%3"/>
+   <linked-el length="16" name="%8" offset="1010" path="%3"/>
+   <linked-el length="36" name="%9" offset="319" path="%10"/>
+   <linked-el length="52" name="%9" offset="365" path="%10"/>
+   <linked-el length="36" name="%11" offset="1202" path="%12"/>
+   <linked-el length="39" name="%11" offset="926" path="%12"/>
+   <linked-el length="39" name="%11" offset="1472" path="%12"/>
+   <linked-el length="31" name="%11" offset="1654" path="%12"/>
+   <linked-el length="35" name="%11" offset="658" path="%12"/>
+   <linked-el length="36" name="%13" offset="1202" path="%12"/>
+   <linked-el length="39" name="%13" offset="926" path="%12"/>
+   <linked-el length="39" name="%13" offset="1472" path="%12"/>
+   <linked-el length="35" name="%13" offset="658" path="%12"/>
+   <linked-el length="29" name="%14" offset="840" path="%10"/>
+   <linked-el length="55" name="%14" offset="916" path="%15"/>
+   <linked-el length="53" name="%14" offset="1179" path="%15"/>
+   <linked-el length="30" name="%14" offset="893" path="%10"/>
+   <linked-el length="32" name="%14" offset="1058" path="%10"/>
+   <linked-el length="52" name="%14" offset="702" path="%15"/>
+   <linked-el length="31" name="%14" offset="711" path="%10"/>
+   <linked-el length="61" name="%16" offset="813" path="%3"/>
+   <linked-el length="47" name="%16" offset="797" path="%1"/>
+   <linked-el length="36" name="%17" offset="319" path="%10"/>
+   <linked-el length="52" name="%17" offset="365" path="%10"/>
+   <linked-el length="36" name="%18" offset="1202" path="%12"/>
+   <linked-el length="39" name="%18" offset="926" path="%12"/>
+   <linked-el length="39" name="%18" offset="1472" path="%12"/>
+   <linked-el length="31" name="%18" offset="1654" path="%12"/>
+   <linked-el length="35" name="%18" offset="658" path="%12"/>
+   <linked-el length="42" name="%19" offset="1108" path="%1"/>
+   <linked-el length="23" name="%19" offset="667" path="%7"/>
+   <linked-el length="47" name="%19" offset="1024" path="%1"/>
+   <linked-el length="48" name="%19" offset="939" path="%1"/>
+   <linked-el length="38" name="%19" offset="1187" path="%1"/>
+   <linked-el length="41" name="%19" offset="708" path="%1"/>
+   <linked-el length="47" name="%19" offset="797" path="%1"/>
+   <linked-el length="29" name="%20" offset="840" path="%10"/>
+   <linked-el length="55" name="%20" offset="916" path="%15"/>
+   <linked-el length="53" name="%20" offset="1179" path="%15"/>
+   <linked-el length="30" name="%20" offset="893" path="%10"/>
+   <linked-el length="32" name="%20" offset="1058" path="%10"/>
+   <linked-el length="52" name="%20" offset="702" path="%15"/>
+   <linked-el length="31" name="%20" offset="711" path="%10"/>
+   <linked-el length="32" name="%7" offset="933" path="%3"/>
+   <linked-el length="41" name="%7" offset="540" path="%3"/>
+   <linked-el length="24" name="%21" offset="1153" path="%3"/>
+   <linked-el length="42" name="%21" offset="1108" path="%1"/>
+   <linked-el length="61" name="%21" offset="813" path="%3"/>
+   <linked-el length="47" name="%21" offset="1024" path="%1"/>
+   <linked-el length="48" name="%21" offset="939" path="%1"/>
+   <linked-el length="38" name="%21" offset="1187" path="%1"/>
+   <linked-el length="41" name="%21" offset="708" path="%1"/>
+   <linked-el length="31" name="%21" offset="1060" path="%3"/>
+   <linked-el length="16" name="%21" offset="1010" path="%3"/>
   </el>
  </validation>
  <aliases>
-  <alias path="homeManagedBean" value="%2"/>
   <alias
-   path="/elsubonlineWeb/src/com/freematador/presentation/ProductManagedBean.java" value="%4"/>
-  <alias path="request.contextPath" value="%14"/>
-  <alias path="registerManagedBean" value="%0"/>
-  <alias path="/elsubonlineWeb/WebContent/guest/product.xhtml" value="%5"/>
-  <alias path="/elsubonlineWeb/WebContent/guest/register.xhtml" value="%1"/>
-  <alias path="/elsubonlineDomain/src/com/freematador/domain/User.java" value="%6"/>
-  <alias path="loginManagedBean" value="%8"/>
+   path="/elsubonlineWeb/src/com/freematador/presentation/ProductManagedBean.java" value="%6"/>
+  <alias path="homeManagedBean" value="%8"/>
+  <alias path="request.contextPath" value="%9"/>
+  <alias path="/index.xhtml" value="%4"/>
+  <alias path="/elsubonlineWeb/faces-config.xml" value="%5"/>
+  <alias path="registerManagedBean" value="%11"/>
+  <alias path="/elsubonlineWeb/WebContent/guest/product.xhtml" value="%1"/>
+  <alias path="/elsubonlineWeb/WebContent/guest/register.xhtml" value="%12"/>
+  <alias path="/elsubonlineDomain/src/com/freematador/domain/User.java" value="%13"/>
+  <alias path="/elsubonlineWeb/WebContent/WEB-INF/faces-config.xml" value="%0"/>
+  <alias path="loginManagedBean" value="%14"/>
   <alias
-   path="/elsubonlineDomain/src/com/freematador/domain/Picture.java" value="%10"/>
-  <alias path="/elsubonlineWeb/WebContent/templates/footer.xhtml" value="%7"/>
-  <alias path="request" value="%11"/>
+   path="/elsubonlineDomain/src/com/freematador/domain/Picture.java" value="%16"/>
+  <alias path="/guest/product.xhtml" value="%2"/>
+  <alias path="request" value="%17"/>
+  <alias path="/elsubonlineWeb/WebContent/templates/footer.xhtml" value="%15"/>
   <alias
-   path="/elsubonlineWeb/src/com/freematador/presentation/RegisterManagedBean.java" value="%12"/>
+   path="/elsubonlineWeb/src/com/freematador/presentation/RegisterManagedBean.java" value="%18"/>
   <alias path="/elsubonlineWeb/WebContent/index.xhtml" value="%3"/>
-  <alias path="productManagedBean" value="%13"/>
+  <alias path="productManagedBean" value="%19"/>
   <alias
-   path="/elsubonlineWeb/src/com/freematador/presentation/LoginManagedBean.java" value="%15"/>
+   path="/elsubonlineWeb/src/com/freematador/presentation/LoginManagedBean.java" value="%20"/>
   <alias
-   path="/elsubonlineDomain/src/com/freematador/domain/Product.java" value="%17"/>
+   path="/elsubonlineDomain/src/com/freematador/domain/Product.java" value="%21"/>
   <alias
-   path="/elsubonlineWeb/src/com/freematador/presentation/HomeManagedBean.java" value="%16"/>
-  <alias path="/elsubonlineWeb/WebContent/templates/header.xhtml" value="%9"/>
-  <alias path="%0" value="registerManagedBean"/>
-  <alias path="%4" value="/elsubonlineWeb/src/com/freematador/presentation/ProductManagedBean.java"/>
+   path="/elsubonlineWeb/src/com/freematador/presentation/HomeManagedBean.java" value="%7"/>
+  <alias path="/elsubonlineWeb/WebContent/templates/header.xhtml" value="%10"/>
+  <alias path="%0" value="/elsubonlineWeb/WebContent/WEB-INF/faces-config.xml"/>
+  <alias path="%4" value="/index.xhtml"/>
   <alias path="%3" value="/elsubonlineWeb/WebContent/index.xhtml"/>
-  <alias path="%2" value="homeManagedBean"/>
-  <alias path="%1" value="/elsubonlineWeb/WebContent/guest/register.xhtml"/>
-  <alias path="%17" value="/elsubonlineDomain/src/com/freematador/domain/Product.java"/>
-  <alias path="%7" value="/elsubonlineWeb/WebContent/templates/footer.xhtml"/>
-  <alias path="%16" value="/elsubonlineWeb/src/com/freematador/presentation/HomeManagedBean.java"/>
-  <alias path="%8" value="loginManagedBean"/>
-  <alias path="%15" value="/elsubonlineWeb/src/com/freematador/presentation/LoginManagedBean.java"/>
-  <alias path="%5" value="/elsubonlineWeb/WebContent/guest/product.xhtml"/>
-  <alias path="%14" value="request.contextPath"/>
-  <alias path="%6" value="/elsubonlineDomain/src/com/freematador/domain/User.java"/>
-  <alias path="%9" value="/elsubonlineWeb/WebContent/templates/header.xhtml"/>
-  <alias path="%13" value="productManagedBean"/>
-  <alias path="%12" value="/elsubonlineWeb/src/com/freematador/presentation/RegisterManagedBean.java"/>
-  <alias path="%11" value="request"/>
-  <alias path="%10" value="/elsubonlineDomain/src/com/freematador/domain/Picture.java"/>
+  <alias path="%2" value="/guest/product.xhtml"/>
+  <alias path="%1" value="/elsubonlineWeb/WebContent/guest/product.xhtml"/>
+  <alias path="%7" value="/elsubonlineWeb/src/com/freematador/presentation/HomeManagedBean.java"/>
+  <alias path="%17" value="request"/>
+  <alias path="%8" value="homeManagedBean"/>
+  <alias path="%16" value="/elsubonlineDomain/src/com/freematador/domain/Picture.java"/>
+  <alias path="%15" value="/elsubonlineWeb/WebContent/templates/footer.xhtml"/>
+  <alias path="%5" value="/elsubonlineWeb/faces-config.xml"/>
+  <alias path="%6" value="/elsubonlineWeb/src/com/freematador/presentation/ProductManagedBean.java"/>
+  <alias path="%14" value="loginManagedBean"/>
+  <alias path="%19" value="productManagedBean"/>
+  <alias path="%9" value="request.contextPath"/>
+  <alias path="%18" value="/elsubonlineWeb/src/com/freematador/presentation/RegisterManagedBean.java"/>
+  <alias path="%20" value="/elsubonlineWeb/src/com/freematador/presentation/LoginManagedBean.java"/>
+  <alias path="%13" value="/elsubonlineDomain/src/com/freematador/domain/User.java"/>
+  <alias path="%21" value="/elsubonlineDomain/src/com/freematador/domain/Product.java"/>
+  <alias path="%12" value="/elsubonlineWeb/WebContent/guest/register.xhtml"/>
+  <alias path="%11" value="registerManagedBean"/>
+  <alias path="%10" value="/elsubonlineWeb/WebContent/templates/header.xhtml"/>
  </aliases>
  <includes/>
 </kb-project>

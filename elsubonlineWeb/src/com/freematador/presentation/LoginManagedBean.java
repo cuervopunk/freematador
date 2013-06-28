@@ -3,7 +3,7 @@ package com.freematador.presentation;
 import java.io.Serializable;
 
 import javax.ejb.EJB;
-import javax.enterprise.context.SessionScoped;
+import javax.faces.bean.SessionScoped;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.context.FacesContext;
@@ -15,19 +15,18 @@ import com.freematador.business.SecurityEJB;
 import com.freematador.domain.User;
 import com.freematador.exceptions.BusinessException;
 
-@ManagedBean
 @SessionScoped
+@ManagedBean
 public class LoginManagedBean implements Serializable{
 	@EJB
 	private SecurityEJB securityEjb;
 	private User user;
-	private boolean loggedIn = false;
-	private String loggedUser = "";
-	
-	private static final long serialVersionUID = 1L;
+	private boolean loggedIn;
+	private String loggedUser;
+	private String email;
+	private String password;
 
 	public LoginManagedBean() {
-		this.user=new User();
 	}
 
 	public User getUser() {
@@ -38,28 +37,6 @@ public class LoginManagedBean implements Serializable{
 		this.user = user;
 	}
 
-	public void submit(ActionEvent actionEvent) {  
-        RequestContext context = RequestContext.getCurrentInstance();  
-        FacesMessage msg = null;  
-        try {
-			if(securityEjb.loginUser(user)){
-				user = securityEjb.getUserProfile(user.getEmail());
-			    loggedIn = true;  
-			    loggedUser = user.getEmail();
-			    msg = new FacesMessage(FacesMessage.SEVERITY_INFO, "Welcome", user.getName());           
-		        context.update("logginName");
-		        context.addCallbackParam("loggedIn", loggedIn);  
-			} else {  
-			    loggedUser = "";
-			    loggedIn = false;  
-			    msg = new FacesMessage(FacesMessage.SEVERITY_WARN, "Login Error", "Invalid credentials");  
-			}
-		} catch (BusinessException e) {
-	        FacesContext.getCurrentInstance().addMessage(null, msg);  
-			e.printStackTrace();
-		}  
-          
-    }
 
 	public boolean isLoggedIn() {
 		return loggedIn;
@@ -77,4 +54,53 @@ public class LoginManagedBean implements Serializable{
 		this.loggedUser = loggedUser;
 	}  
 	
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public void submit(ActionEvent actionEvent) {  
+        RequestContext context = RequestContext.getCurrentInstance();  
+        FacesMessage msg = null;
+       
+        try {
+        	user = new User();
+        	user.setPassword(password);
+        	user.setEmail(email);
+        	
+			if(securityEjb.loginUser(user)){
+				user = securityEjb.getUserProfile(email);
+			    loggedIn = true;  
+			    loggedUser = email;
+			    msg = new FacesMessage(FacesMessage.SEVERITY_INFO, "Welcome", user.getName());           
+		        context.update("logginName");
+		        context.update("headerMenu");
+		        context.addCallbackParam("loggedIn", loggedIn);  
+		     
+			} else {  
+			    msg = new FacesMessage(FacesMessage.SEVERITY_WARN, "Login Error", "Invalid credentials");  
+			}
+		} catch (BusinessException e) {
+	        FacesContext.getCurrentInstance().addMessage(null, msg);  
+			e.printStackTrace();
+		}  
+          
+    }
+
+	public String logout() {
+		System.out.println("Closing session...");
+		FacesContext.getCurrentInstance().getExternalContext().invalidateSession();
+        return "/index.xhtml?faces-redirect=true";
+	}
 }

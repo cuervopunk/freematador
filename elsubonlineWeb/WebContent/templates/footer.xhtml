@@ -5,6 +5,7 @@
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:p="http://primefaces.org/ui"
 	xmlns:f="http://java.sun.com/jsf/core">
+
 	<center>
 		<h:outputText value="Built with Freematador" />
 	</center>
@@ -13,11 +14,11 @@
     <p:dialog id="dialog" header="Login" widgetVar="dlg" resizable="false">
         <h:panelGrid columns="2" cellpadding="5">  
             <h:outputLabel for="email" value="E-mail:" />  
-            <p:inputText value="#{loginManagedBean.user.email}"   
+            <p:inputText value="#{loginManagedBean.email}"   
                     id="email" required="true" label="email" />  
               
             <h:outputLabel for="password" value="Password:" />  
-            <h:inputSecret value="#{loginManagedBean.user.password}"   
+            <h:inputSecret value="#{loginManagedBean.password}"   
                     id="password" required="true" label="password" />  
               
             <f:facet name="footer">  
@@ -33,12 +34,10 @@
 	    function handleLoginRequest(xhr, status, args) {  
 	        if(args.validationFailed || !args.loggedIn) {  
 	            dlg.jq.effect("shake", { times:5 }, 100);  
-	        }   
-	        else {  
+	        } else {  
 	            dlg.hide();  
 	            $('#loginLink').fadeOut();  
 	        }  
 	    }  
 	</script>
-
 </ui:composition>

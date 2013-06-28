@@ -2,16 +2,21 @@
 	xmlns:ui="http://java.sun.com/jsf/facelets"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:p="http://primefaces.org/ui"
-	xmlns:f="http://java.sun.com/jsf/core">
+	xmlns:f="http://java.sun.com/jsf/core" id="header">
 
-	<div id="header" class="ui-widget ui-widget-header">
+	<div class="ui-widget ui-widget-header">
 		<div id="logo">
-			<img src="#{request.contextPath}/resources/images/logo2.gif" alt="Logo"/>
+			<h:outputLink value="#{request.contextPath}/index.xhtml"><img src="#{request.contextPath}/resources/images/logo2.gif" alt="Logo" border="0"/></h:outputLink>
           	<div id="topmenu" style="float:right;padding-right: 20">
           	<br />
-			    <h:outputLink id="loginLink" value="javascript:void(0)" onclick="dlg.show()" title="login">     
+			    <h:form  style="display: inline;" id="headerMenu">
+			    <h:outputLink id="loginLink" value="javascript:void(0)" onclick="dlg.show()" title="login" rendered="#{!loginManagedBean.loggedIn}">     
 			        Login   
 			    </h:outputLink>
+			    <h:commandLink id="logoutLink" action="#{loginManagedBean.logout}" title="logout" rendered="#{loginManagedBean.loggedIn}">     
+			        Logout   
+			    </h:commandLink>
+			    </h:form>
  			    <h:outputText name="logginName" id="logginName" value="#{loginManagedBean.loggedUser}"/>
 			  
 			</div>

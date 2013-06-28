@@ -20,7 +20,7 @@
 	  
 		<p:imageSwitch effect="none" widgetVar="switcher" slideshowAuto="false">  
 		    <ui:repeat value="#{productManagedBean.product.pictures}" var="image">  
-		        <p:graphicImage value="/resources/images/products/#{image.fileName}" />  
+		        <p:graphicImage value="/resources/images/products/#{image.fileName}" height="300px" />  
 		    </ui:repeat>  
 		</p:imageSwitch>
 		<br/>
