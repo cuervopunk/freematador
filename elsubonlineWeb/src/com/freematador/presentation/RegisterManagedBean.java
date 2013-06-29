@@ -8,6 +8,8 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
 
+import org.primefaces.context.RequestContext;
+
 import com.freematador.business.SecurityEJB;
 import com.freematador.domain.User;
 
@@ -27,8 +29,11 @@ public class RegisterManagedBean implements Serializable {
 
 	public void submit() {
 		securityEjb.createUser(user);
-		FacesMessage message = new FacesMessage("Registration succesful!");
+		FacesMessage message = new FacesMessage("Gracias por registrarse! En breve recibirá un mail de confirmación. ");
 		FacesContext.getCurrentInstance().addMessage(null, message);
+		user=new User();
+        RequestContext context = RequestContext.getCurrentInstance();  
+        context.update("registrationForm");
 	}
 
 	public User getUser() {

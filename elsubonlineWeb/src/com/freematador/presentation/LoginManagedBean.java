@@ -22,7 +22,6 @@ public class LoginManagedBean implements Serializable{
 	private SecurityEJB securityEjb;
 	private User user;
 	private boolean loggedIn;
-	private String loggedUser;
 	private String email;
 	private String password;
 
@@ -46,14 +45,6 @@ public class LoginManagedBean implements Serializable{
 		this.loggedIn = loggedIn;
 	}
 
-	public String getLoggedUser() {
-		return loggedUser;
-	}
-
-	public void setLoggedUser(String loggedUser) {
-		this.loggedUser = loggedUser;
-	}  
-	
 	public String getEmail() {
 		return email;
 	}
@@ -71,7 +62,6 @@ public class LoginManagedBean implements Serializable{
 	}
 
 	public void submit(ActionEvent actionEvent) {  
-        RequestContext context = RequestContext.getCurrentInstance();  
         FacesMessage msg = null;
        
         try {
@@ -80,12 +70,12 @@ public class LoginManagedBean implements Serializable{
         	user.setEmail(email);
         	
 			if(securityEjb.loginUser(user)){
-				user = securityEjb.getUserProfile(email);
 			    loggedIn = true;  
-			    loggedUser = email;
+				user = securityEjb.getUserProfile(email);
 			    msg = new FacesMessage(FacesMessage.SEVERITY_INFO, "Welcome", user.getName());           
-		        context.update("logginName");
+		        RequestContext context = RequestContext.getCurrentInstance();  
 		        context.update("headerMenu");
+		        context.update("logginName");
 		        context.addCallbackParam("loggedIn", loggedIn);  
 		     
 			} else {  

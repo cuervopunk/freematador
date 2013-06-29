@@ -9,11 +9,21 @@
 	xmlns:f="http://java.sun.com/jsf/core">
 
    	<!-- <h2 class="title ui-widget-header ui-corner-all">Registrate</h2> -->
-	<h:form id="form">
+	<h:form id="registrationForm">
 	    <h:panelGrid columns="2">
-	        <h:outputLabel for="username">Username</h:outputLabel>
-	        <p:inputText id="username" label="Username" value="#{registerManagedBean.user.name}" required="true"> 
-	            <f:ajax event="blur" render="usernameMessage" />
+	        <h:outputLabel for="name">Nombre:</h:outputLabel>
+	        <p:inputText id="name" label="name" value="#{registerManagedBean.user.name}" required="true"> 
+	            <f:ajax event="blur" render="nameMessage" />
+	        </p:inputText>
+
+	        <h:outputLabel for="surname">Apellido:</h:outputLabel>
+	        <p:inputText id="surname" label="surname" value="#{registerManagedBean.user.surname}" required="true"> 
+	            <f:ajax event="blur" render="surnameMessage" />
+	        </p:inputText>
+	
+	        <h:outputLabel for="email">Email</h:outputLabel>
+	        <p:inputText id="email" label="Email" value="#{registerManagedBean.user.email}" required="true">
+	            <f:ajax event="blur" render="emailMessage" />
 	        </p:inputText>
 	
 	        <h:outputLabel for="password">Password</h:outputLabel>
@@ -21,12 +31,7 @@
 	            <f:ajax event="blur" render="passwordMessage" />
 	        </p:password>
 	
-	        <h:outputLabel for="email">Email</h:outputLabel>
-	        <p:inputText id="email" label="Email" value="#{registerManagedBean.user.email}" required="true">
-	            <f:ajax event="blur" render="emailMessage" />
-	        </p:inputText>
-	
-	        <h:outputLabel for="telephone">Telephone</h:outputLabel>
+	        <h:outputLabel for="telephone">Tel&eacute;fono</h:outputLabel>
 	        <p:inputText id="telephone" label="Telephone" value="#{registerManagedBean.user.telephone}">
 	            <f:ajax event="blur" render="telephoneMessage" />
 	        </p:inputText>
@@ -36,7 +41,8 @@
 	        </p:commandButton>
 
 	    </h:panelGrid>
-        <h:message id="usernameMessage" for="username" />
+        <h:message id="nameMessage" for="name" />
+        <h:message id="surnameMessage" for="surname" />
         <h:message id="passwordMessage" for="password" />
         <h:message id="emailMessage" for="email" />
         <h:message id="telephoneMessage" for="telephone" />

@@ -11,9 +11,12 @@ public @Stateless class SecurityEJBBean implements SecurityEJB {
 
 	@EJB
 	private UserDAO userDAO;
+	@EJB
+	private MailerEJB mailerEJB;
 	
 	public void createUser(User u) {
 		userDAO.insert(u);
+		mailerEJB.mailNewUser(u);
 		System.out.println("Se ha creado el usuario "+u.getName());
 	}
 	
@@ -26,7 +29,7 @@ public @Stateless class SecurityEJBBean implements SecurityEJB {
 		
 		User storedUser = userDAO.findByEmail(loggedUser.getEmail());
 		
-		if(loggedUser.getPassword().equals(storedUser.getPassword())) {
+		if(loggedUser.getPassword().equals(storedUser.getPassword()) && storedUser.isActive()) {
 			validated=true;
 			System.out.println("Valida password");
 		}else{
@@ -40,5 +43,12 @@ public @Stateless class SecurityEJBBean implements SecurityEJB {
 	public User getUserProfile(String email) {
 		User user = userDAO.findByEmail(email);
 		return user;
+	}
+
+	@Override
+	public void activateUser(int userId) {
+		User user = userDAO.findById(userId);
+		user.setActive(true);
+		userDAO.update(user);
 	}
 }

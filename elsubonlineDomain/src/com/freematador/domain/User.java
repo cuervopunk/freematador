@@ -8,6 +8,7 @@ import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
@@ -15,7 +16,7 @@ import javax.persistence.OneToMany;
 public class User implements Serializable{
 	private static final long serialVersionUID = 1L;
 	@Id 
-	@GeneratedValue
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
 	@Column(unique=true)
 	private String email;
@@ -26,8 +27,8 @@ public class User implements Serializable{
 	@OneToMany
 	private List<Role> roles;
 	private Store store;
-	private String username;
 	private Date birthdate;
+	private boolean active;
 	
 	public User() {
 		this.roles = new ArrayList<Role>();
@@ -122,20 +123,20 @@ public class User implements Serializable{
 		
 	}
 
-	public String getUsername() {
-		return username;
-	}
-
-	public void setUsername(String username) {
-		this.username = username;
-	}
-
 	public Date getBirthdate() {
 		return birthdate;
 	}
 
 	public void setBirthdate(Date birthdate) {
 		this.birthdate = birthdate;
+	}
+
+	public boolean isActive() {
+		return active;
+	}
+
+	public void setActive(boolean active) {
+		this.active = active;
 	}
 	 
 	
