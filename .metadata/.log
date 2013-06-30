@@ -4319,3 +4319,399 @@ Binding(CTRL+R,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.jboss.tools.vpe.editorContext,,,system)
+!SESSION 2013-06-30 01:44:45.645 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2013-06-30 01:44:51.610
+!MESSAGE Could not load repository template extension contributed by org.jboss.tools.common.mylyn with connectorKind jira
+
+!ENTRY org.eclipse.osgi 2 1 2013-06-30 01:44:51.826
+!MESSAGE NLS missing message: JBossRuntimeStartup_JBoss_EAP_Server_6_1 in: org.jboss.ide.eclipse.as.core.Messages
+
+!ENTRY org.eclipse.jface 2 0 2013-06-30 01:57:26.675
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 01:57:26.675
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@60d6b174,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2f1c6857,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2013-06-30 03:09:02.750
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 03:09:02.751
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@11526f18,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2f503e40,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 03:09:02.751
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3afb998a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@10adf429,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 03:09:02.751
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5c1d5146,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5c36dea4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 03:09:02.751
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@8c2f9e9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@38a5347d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 03:09:02.751
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@66191798,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2785b742,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 03:09:02.751
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@795c3085,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@75916adf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 03:09:02.751
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1375aa02,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@a8ca283,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 03:09:02.751
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@11ec7349,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6634b5c3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 03:09:02.751
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3a84c6d0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5946fc71,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 03:09:02.751
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@63189fb3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1be1b0f4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 03:09:02.751
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@659cd398,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@210708b5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 03:09:02.751
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1b07d446,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5161abe7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 03:09:02.751
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1f014d87,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@9242875,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY org.eclipse.jst.jee.ejb 4 0 2013-06-30 03:25:01.579
+!MESSAGE java.util.ConcurrentModificationException
+!STACK 0
+org.eclipse.jst.jee.model.internal.mergers.ModelException: java.util.ConcurrentModificationException
+	at org.eclipse.jst.jee.model.internal.mergers.EjbJarMerger.process(EjbJarMerger.java:79)
+	at org.eclipse.jst.jee.model.internal.EJB3MergedModelProvider.mergeWithModel(EJB3MergedModelProvider.java:214)
+	at org.eclipse.jst.jee.model.internal.EJB3MergedModelProvider.merge(EJB3MergedModelProvider.java:204)
+	at org.eclipse.jst.jee.model.internal.EJB3MergedModelProvider.internalModelChanged(EJB3MergedModelProvider.java:174)
+	at org.eclipse.jst.jee.model.internal.EJB3MergedModelProvider.annotationModelChanged(EJB3MergedModelProvider.java:151)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$AnnotationModelListener.modelsChanged(AbstractMergedModelProvider.java:83)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider$1.run(AbstractAnnotationModelProvider.java:189)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.notifyListeners(AbstractAnnotationModelProvider.java:184)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.notifyListeners(AbstractAnnotationModelProvider.java:157)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostChange(AbstractAnnotationModelProvider.java:458)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:448)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1682)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1672)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1506)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1482)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.discardWorkingCopy(CompilationUnit.java:491)
+	at org.jboss.tools.common.validation.java.JavaDirtyRegionProcessor.isJavaElementValidationRequired(JavaDirtyRegionProcessor.java:591)
+	at org.jboss.tools.common.validation.java.JavaDirtyRegionProcessor.endProcessing(JavaDirtyRegionProcessor.java:499)
+	at org.jboss.tools.common.validation.java.xpl.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:699)
+Caused by: java.util.ConcurrentModificationException
+	at org.eclipse.emf.ecore.util.FeatureMapUtil$BasicFeatureEIterator.checkModCount(FeatureMapUtil.java:556)
+	at org.eclipse.emf.ecore.util.FeatureMapUtil$BasicFeatureEIterator.next(FeatureMapUtil.java:374)
+	at org.eclipse.jst.jee.model.internal.mergers.EjbJarMerger.mergeSessionBeans(EjbJarMerger.java:145)
+	at org.eclipse.jst.jee.model.internal.mergers.EjbJarMerger.process(EjbJarMerger.java:74)
+	... 22 more
+
+!ENTRY org.eclipse.jst.jee.ejb 4 0 2013-06-30 03:25:18.643
+!MESSAGE java.util.ConcurrentModificationException
+!STACK 0
+org.eclipse.jst.jee.model.internal.mergers.ModelException: java.util.ConcurrentModificationException
+	at org.eclipse.jst.jee.model.internal.mergers.EjbJarMerger.process(EjbJarMerger.java:79)
+	at org.eclipse.jst.jee.model.internal.EJB3MergedModelProvider.mergeWithModel(EJB3MergedModelProvider.java:214)
+	at org.eclipse.jst.jee.model.internal.EJB3MergedModelProvider.merge(EJB3MergedModelProvider.java:204)
+	at org.eclipse.jst.jee.model.internal.EJB3MergedModelProvider.internalModelChanged(EJB3MergedModelProvider.java:174)
+	at org.eclipse.jst.jee.model.internal.EJB3MergedModelProvider.annotationModelChanged(EJB3MergedModelProvider.java:151)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$AnnotationModelListener.modelsChanged(AbstractMergedModelProvider.java:83)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider$1.run(AbstractAnnotationModelProvider.java:189)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.notifyListeners(AbstractAnnotationModelProvider.java:184)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.notifyListeners(AbstractAnnotationModelProvider.java:157)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostChange(AbstractAnnotationModelProvider.java:458)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:448)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1682)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1672)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1506)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1482)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:954)
+	at org.jboss.tools.common.validation.java.JavaDirtyRegionProcessor.isJavaElementValidationRequired(JavaDirtyRegionProcessor.java:524)
+	at org.jboss.tools.common.validation.java.JavaDirtyRegionProcessor.endProcessing(JavaDirtyRegionProcessor.java:499)
+	at org.jboss.tools.common.validation.java.xpl.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:699)
+Caused by: java.util.ConcurrentModificationException
+	at org.eclipse.emf.ecore.util.FeatureMapUtil$BasicFeatureEIterator.checkModCount(FeatureMapUtil.java:556)
+	at org.eclipse.emf.ecore.util.FeatureMapUtil$BasicFeatureEIterator.next(FeatureMapUtil.java:374)
+	at org.eclipse.jst.jee.model.internal.mergers.EjbJarMerger.mergeSessionBeans(EjbJarMerger.java:145)
+	at org.eclipse.jst.jee.model.internal.mergers.EjbJarMerger.process(EjbJarMerger.java:74)
+	... 23 more
+
+!ENTRY org.eclipse.jst.jee.ejb 4 0 2013-06-30 03:26:31.709
+!MESSAGE java.util.ConcurrentModificationException
+!STACK 0
+org.eclipse.jst.jee.model.internal.mergers.ModelException: java.util.ConcurrentModificationException
+	at org.eclipse.jst.jee.model.internal.mergers.EjbJarMerger.process(EjbJarMerger.java:79)
+	at org.eclipse.jst.jee.model.internal.EJB3MergedModelProvider.mergeWithModel(EJB3MergedModelProvider.java:214)
+	at org.eclipse.jst.jee.model.internal.EJB3MergedModelProvider.merge(EJB3MergedModelProvider.java:204)
+	at org.eclipse.jst.jee.model.internal.EJB3MergedModelProvider.internalModelChanged(EJB3MergedModelProvider.java:174)
+	at org.eclipse.jst.jee.model.internal.EJB3MergedModelProvider.annotationModelChanged(EJB3MergedModelProvider.java:151)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$AnnotationModelListener.modelsChanged(AbstractMergedModelProvider.java:83)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider$1.run(AbstractAnnotationModelProvider.java:189)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.notifyListeners(AbstractAnnotationModelProvider.java:184)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.notifyListeners(AbstractAnnotationModelProvider.java:157)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostChange(AbstractAnnotationModelProvider.java:458)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:448)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1682)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1672)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1506)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1482)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:954)
+	at org.jboss.tools.common.validation.java.JavaDirtyRegionProcessor.isJavaElementValidationRequired(JavaDirtyRegionProcessor.java:524)
+	at org.jboss.tools.common.validation.java.JavaDirtyRegionProcessor.endProcessing(JavaDirtyRegionProcessor.java:499)
+	at org.jboss.tools.common.validation.java.xpl.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:699)
+Caused by: java.util.ConcurrentModificationException
+	at org.eclipse.emf.ecore.util.FeatureMapUtil$BasicFeatureEIterator.checkModCount(FeatureMapUtil.java:556)
+	at org.eclipse.emf.ecore.util.FeatureMapUtil$BasicFeatureEIterator.next(FeatureMapUtil.java:374)
+	at org.eclipse.jst.jee.model.internal.mergers.EjbJarMerger.mergeSessionBeans(EjbJarMerger.java:145)
+	at org.eclipse.jst.jee.model.internal.mergers.EjbJarMerger.process(EjbJarMerger.java:74)
+	... 23 more
+
+!ENTRY org.eclipse.jface 2 0 2013-06-30 03:52:06.008
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-30 03:52:06.008
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.RunToLine,Run to Line,
+		Resume and break when execution reaches the current line,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4a5bc8b4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.jboss.tools.vpe.commands.refreshCommand,Refresh,
+		,
+		Category(org.jboss.tools.vpe.category,Visual Page Editor,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@499a6ca9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.jboss.tools.vpe.editorContext,,,system)

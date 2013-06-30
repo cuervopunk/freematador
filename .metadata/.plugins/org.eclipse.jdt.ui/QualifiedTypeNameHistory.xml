@@ -4,7 +4,6 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="javax.persistence.Query"/>
 <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
-<fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
 <fullyQualifiedTypeName name="javax.faces.bean.SessionScoped"/>
 <fullyQualifiedTypeName name="com.freematador.presentation.ProductManagedBean"/>
 <fullyQualifiedTypeName name="javax.faces.bean.ManagedProperty"/>
@@ -12,10 +11,14 @@
 <fullyQualifiedTypeName name="javax.faces.bean.ApplicationScoped"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.freematador.domain.User"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
 <fullyQualifiedTypeName name="com.freematador.presentation.UserManagedBean"/>
 <fullyQualifiedTypeName name="javax.faces.event.ComponentSystemEvent"/>
 <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
+<fullyQualifiedTypeName name="com.freematador.domain.Category"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.primefaces.component.menuitem.MenuItem"/>
+<fullyQualifiedTypeName name="javax.persistence.FetchType"/>
 </qualifiedTypeNameHistroy>

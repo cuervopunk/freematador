@@ -7,25 +7,29 @@ import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Product implements Serializable{
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
 	@Id
-	@GeneratedValue
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
 	private String shortDescription;
 	private String longDescription;
 	private float basePrice;
 	private Date ending;
+	@OneToMany
 	private List<Picture> pictures = new ArrayList<Picture>();
+	@ManyToOne
 	private Category category = new Category();
+	@ManyToOne
 	private Store store = new Store();
+	@OneToMany
 	private List<Bid> bids = new ArrayList<Bid>();
+	@OneToMany
 	private List<Question> questions = new ArrayList<Question>();
 	
 	public int getId() {
