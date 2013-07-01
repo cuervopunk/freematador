@@ -2,18 +2,27 @@ package com.freematador.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
 @Entity
 public class Product implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
@@ -24,6 +33,7 @@ public class Product implements Serializable{
 	@OneToMany
 	private List<Picture> pictures = new ArrayList<Picture>();
 	@ManyToOne
+	@JoinColumn(name="category")
 	private Category category = new Category();
 	@ManyToOne
 	private Store store = new Store();
@@ -62,12 +72,6 @@ public class Product implements Serializable{
 	public void setEnding(Date ending) {
 		this.ending = ending;
 	}
-	public List<Picture> getPictures() {
-		return pictures;
-	}
-	public void setPictures(List<Picture> pictures) {
-		this.pictures = pictures;
-	}
 	public Category getCategory() {
 		return category;
 	}
@@ -91,6 +95,12 @@ public class Product implements Serializable{
 	}
 	public void setQuestions(List<Question> questions) {
 		this.questions = questions;
+	}
+	public List<Picture> getPictures() {
+		return pictures;
+	}
+	public void setPictures(List<Picture> pictures) {
+		this.pictures = pictures;
 	}
 	
 	

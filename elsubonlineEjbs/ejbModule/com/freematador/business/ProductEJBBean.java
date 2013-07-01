@@ -3,12 +3,17 @@ package com.freematador.business;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.ejb.EJB;
 import javax.ejb.Stateless;
 
 import com.freematador.domain.Picture;
 import com.freematador.domain.Product;
+import com.freematador.persistence.ProductDAO;
 
 public @Stateless class ProductEJBBean implements ProductEJB {
+	@EJB
+	private ProductDAO productDAO;
+	
 	public List<Product> getHighlighedProducts() {
 		List<Product> highlightedProducts = new ArrayList<Product>();
 		Product product1 = new Product();
@@ -104,4 +109,5 @@ public @Stateless class ProductEJBBean implements ProductEJB {
 		
 		return product;
 	}
+	
 }
