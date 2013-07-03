@@ -2,11 +2,8 @@ package com.freematador.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Date;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -30,7 +27,7 @@ public class Product implements Serializable{
 	private String longDescription;
 	private float basePrice;
 	private Date ending;
-	@OneToMany
+	@OneToMany(fetch=FetchType.LAZY)
 	private List<Picture> pictures = new ArrayList<Picture>();
 	@ManyToOne
 	@JoinColumn(name="category")

@@ -10,4 +10,5 @@ import com.freematador.domain.Product;
 public interface ProductEJB {
 	public List<Product> getHighlighedProducts();
 	public Product getProduct(long productId);
+	public List<Product> getListingProducts(int categoryId);
 }

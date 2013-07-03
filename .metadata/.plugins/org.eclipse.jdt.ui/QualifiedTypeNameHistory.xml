@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="javax.persistence.Query"/>
 <fullyQualifiedTypeName name="com.freematador.presentation.ProductManagedBean"/>
 <fullyQualifiedTypeName name="javax.faces.bean.ManagedProperty"/>
 <fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
@@ -15,7 +14,6 @@
 <fullyQualifiedTypeName name="org.primefaces.component.menuitem.MenuItem"/>
 <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
 <fullyQualifiedTypeName name="javax.faces.bean.SessionScoped"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
 <fullyQualifiedTypeName name="com.freematador.business.CategoryTreeEJBBean"/>
 <fullyQualifiedTypeName name="com.freematador.presentation.CategoryListingManagedBean"/>
@@ -27,4 +25,10 @@
 <fullyQualifiedTypeName name="javax.faces.event.ComponentSystemEvent"/>
 <fullyQualifiedTypeName name="com.freematador.domain.Product"/>
 <fullyQualifiedTypeName name="com.freematador.domain.Category"/>
+<fullyQualifiedTypeName name="javax.persistence.Query"/>
+<fullyQualifiedTypeName name="com.freematador.business.ProductEJB"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.hibernate.FetchMode"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.FetchProfile"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.Fetch"/>
 </qualifiedTypeNameHistroy>

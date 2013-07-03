@@ -110,4 +110,11 @@ public @Stateless class ProductEJBBean implements ProductEJB {
 		return product;
 	}
 	
+	public List<Product> getListingProducts(int categoryId) {
+		System.out.println("ProductEJBBean - categoryId:"+categoryId);
+		List<Product> listing = productDAO.getProductsByCategory(categoryId);
+		for(Product p : listing) p.getPictures().size();
+		return listing;
+	}
+	
 }
