@@ -11,4 +11,7 @@ public interface SecurityEJB {
 	public boolean loginUser(User loggedUser) throws BusinessException;
 	public User getUserProfile(String email);
 	public void activateUser(int userId);
+	public void updateUserProfile(User user) throws BusinessException;
+	public void recoverPassword(String email) throws BusinessException;
+	boolean isAdmin(User user) throws BusinessException;
 }

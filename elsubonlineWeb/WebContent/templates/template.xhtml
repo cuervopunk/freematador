@@ -16,9 +16,12 @@
 		</f:metadata>
 		
 		<h:head>
+		</h:head>
+
+		<h:body>
 			<p:layout fullPage="true" resizeTitle="resize" style="background-color:#FFFFFF;">
 
-				<p:layoutUnit position="north" size="78" id="north" >
+				<p:layoutUnit position="north" size="100" id="north" >
 					<ui:include src="header.xhtml" />
 				</p:layoutUnit>
 		
@@ -26,24 +29,19 @@
 					<ui:include src="categoryTree.xhtml" />
 				</p:layoutUnit>
 				
-				<p:layoutUnit	styleClass="layoutUnitCenter" position="center">
+				<p:layoutUnit styleClass="layoutUnitCenter" position="center" >
 					<ui:insert name="content" />
 				</p:layoutUnit>
 				
-				<p:layoutUnit position="east" id="east" header="Registrate" style="overflow:hidden;" size="360">
+				<p:layoutUnit position="east" id="east" style="overflow:hidden;" size="390" rendered="#{!loginManagedBean.loggedIn}">
 					<ui:include src="/guest/register.xhtml" />
 				</p:layoutUnit>
 				
-				<p:layoutUnit position="south" resizable="true" id="south">
+				<p:layoutUnit position="south" resizable="true" id="south" size="55">
 					<ui:include src="footer.xhtml" />
 				</p:layoutUnit>
-
 			</p:layout>
-			
-		</h:head>
-
-	<h:body>
-	</h:body>
+		</h:body>
 
 </f:view>
 </html>		

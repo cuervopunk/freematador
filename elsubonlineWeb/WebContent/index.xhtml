@@ -7,30 +7,27 @@
 	
 	<ui:define name="metadata">
 	</ui:define>
-	<ui:define name="content">
-		<!-- <h2 class="title ui-widget-header ui-corner-all">Destacados</h2> -->
 	
-	<p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" />
-		
-	<p:carousel id="basicCarousel" value="#{homeManagedBean.highlightedProducts}" var="product" numVisible="3">  
-	    <f:facet name="header">  
-	            Destacados  
-	    </f:facet>
-	    <h:form>  
-	    <h:panelGrid columns="1" cellpadding="5" width="308" height="300">  
-	        <p:graphicImage value="/resources/images/products/#{product.pictures[0].fileName}" height="100" width="100"/>
-	        <h:commandLink action="#{homeManagedBean.viewProduct}">
-	        	<f:param name="productId" value="#{product.id}" />
-		        <h:outputText value="#{product.shortDescription}"  />
-	        </h:commandLink>  
-        	<h:outputText value="$#{product.basePrice}" />
-	    </h:panelGrid>
-	    </h:form>  
-	    <!-- 
-	    <f:facet name="footer">  
-	            In total there are ...  
-	    </f:facet>
-	     -->  
-	</p:carousel>   
+	<ui:define name="content">		
+			<p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" />		
+		    <h:form id="highlightedForm">  
+			<p:carousel id="basicCarousel" value="#{homeManagedBean.highlightedProducts}" 
+				var="product" numVisible="3"  itemStyle="width:300px">  
+			    <f:facet name="header">  
+			            <h:outputText value="#{msg.highlighted}" />  
+			    </f:facet>
+			    <h:panelGrid columns="2" cellpadding="5" height="300" style="vertical-align:text-top;">  
+			        <p:graphicImage value="/images/#{product.pictures[0].fileName}" height="100" width="100"/>
+					<h:panelGroup>
+					<h:link value="#{product.shortDescription}" outcome="product">
+						<f:param name="id" value="#{product.id}"/>
+					</h:link>
+					<br/><br/>
+		        	<h:outputText value="$#{product.productPrice}" />
+		        	</h:panelGroup>
+			    </h:panelGrid>
+			</p:carousel>   
+		    </h:form>
 	</ui:define>
+
 </ui:composition>

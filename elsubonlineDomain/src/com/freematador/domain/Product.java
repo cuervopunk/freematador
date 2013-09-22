@@ -1,6 +1,7 @@
 package com.freematador.domain;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -13,6 +14,9 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
+
+import com.freematador.exceptions.BusinessException;
 
 @Entity
 public class Product implements Serializable{
@@ -26,18 +30,26 @@ public class Product implements Serializable{
 	private String shortDescription;
 	private String longDescription;
 	private float basePrice;
-	private Date ending;
+	@OneToOne
+	private Bid highestBid;
+	private Date startingDate;
+	private Date endingDate;
 	@OneToMany(fetch=FetchType.LAZY)
 	private List<Picture> pictures = new ArrayList<Picture>();
 	@ManyToOne
 	@JoinColumn(name="category")
 	private Category category = new Category();
 	@ManyToOne
-	private Store store = new Store();
+	private Store store;
 	@OneToMany
 	private List<Bid> bids = new ArrayList<Bid>();
 	@OneToMany
 	private List<Question> questions = new ArrayList<Question>();
+	private int saleType = 1;
+	@OneToOne
+	private User user;
+	private boolean active = true;
+	private boolean highlight = false;
 	
 	public int getId() {
 		return id;
@@ -63,11 +75,17 @@ public class Product implements Serializable{
 	public void setBasePrice(float basePrice) {
 		this.basePrice = basePrice;
 	}
-	public Date getEnding() {
-		return ending;
+	public Date getEndingDate() {
+		return endingDate;
 	}
-	public void setEnding(Date ending) {
-		this.ending = ending;
+	public void setEndingDate(Date endingDate) {
+		this.endingDate = endingDate;
+	}
+	public Date getStartingDate() {
+		return startingDate;
+	}
+	public void setStartingDate(Date startingDate) {
+		this.startingDate = startingDate;
 	}
 	public Category getCategory() {
 		return category;
@@ -99,7 +117,48 @@ public class Product implements Serializable{
 	public void setPictures(List<Picture> pictures) {
 		this.pictures = pictures;
 	}
-	
-	
-
+	public int getSaleType() {
+		return saleType;
+	}
+	public void setSaleType(int saleType) {
+		this.saleType = saleType;
+	}
+	public User getUser() {
+		return user;
+	}
+	public void setUser(User user) {
+		this.user = user;
+	}
+	public Bid getHighestBid() {
+		return highestBid;
+	}
+	public void setHighestBid(Bid highestBid) {
+		this.highestBid = highestBid;
+	}
+	public boolean isActive() {
+		return active;
+	}
+	public void setActive(boolean active) {
+		this.active = active;
+	}
+	public boolean isHighlight() {
+		return highlight;
+	}
+	public void setHighlight(boolean highlight) {
+		this.highlight = highlight;
+	}
+	public BigDecimal getProductPrice() throws BusinessException {
+		BigDecimal price = new BigDecimal(0);
+		if(id>0) {
+			if(getHighestBid()!=null) {
+				price=new BigDecimal(getHighestBid().getValue());
+			}else{
+				price=new BigDecimal(getBasePrice());
+			}
+		}
+		if(price==null || price.floatValue()==0) {
+			throw new BusinessException("Error calculando precio del producto");
+		}
+		return price;
+	}
 }

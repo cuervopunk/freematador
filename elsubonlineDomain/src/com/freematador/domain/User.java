@@ -29,7 +29,11 @@ public class User implements Serializable{
 	private Store store;
 	private Date birthdate;
 	private boolean active;
-	
+	@OneToMany
+	private List<Operation> operations;
+	@OneToMany(mappedBy = "owner")
+	private List<Notification> notifications;
+
 	public User() {
 		this.roles = new ArrayList<Role>();
 	}
@@ -138,6 +142,23 @@ public class User implements Serializable{
 	public void setActive(boolean active) {
 		this.active = active;
 	}
-	 
+
+	public List<Operation> getOperations() {
+		return operations;
+	}
+
+	public void setOperations(List<Operation> operations) {
+		this.operations = operations;
+	}
+
+	public List<Notification> getNotifications() {
+		return notifications;
+	}
+
+	public void setNotifications(List<Notification> notifications) {
+		this.notifications = notifications;
+	}
 	
+	
+		
 }

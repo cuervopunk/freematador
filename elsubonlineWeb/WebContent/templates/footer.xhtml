@@ -6,29 +6,52 @@
 	xmlns:p="http://primefaces.org/ui"
 	xmlns:f="http://java.sun.com/jsf/core">
 
-	<center>
-		<h:outputText value="Built with Freematador" />
-	</center>
+	<div class="ui-widget ui-widget-header" style="height:25px; padding-right:30px; padding-top:10px" align="right">
+		<h:outputText style="font-size: 12pt; font-weight: normal" value="#{msg.builtWithFreematador}" />
+	</div>
 
 	<h:form id="loginForm">  
-    <p:dialog id="dialog" header="Login" widgetVar="dlg" resizable="false">
+    <p:dialog id="dialog" header="#{msg.login}" widgetVar="dlg" resizable="false">
         <h:panelGrid columns="2" cellpadding="5">  
-            <h:outputLabel for="email" value="E-mail:" />  
+            <h:outputLabel for="email" value="#{msg['label.email']}" />  
             <p:inputText value="#{loginManagedBean.email}"   
                     id="email" required="true" label="email" />  
               
-            <h:outputLabel for="password" value="Password:" />  
+            <h:outputLabel for="password" value="#{msg['label.password']}" />  
             <h:inputSecret value="#{loginManagedBean.password}"   
                     id="password" required="true" label="password" />  
               
             <f:facet name="footer">  
-                <p:commandButton id="loginButton" value="Login"
+                <p:commandButton id="loginButton" value="#{msg.login}"
                     actionListener="#{loginManagedBean.submit}"   
-                    oncomplete="handleLoginRequest(xhr, status, args)"/>  
+                    oncomplete="handleLoginRequest(xhr, status, args)" ajax="true"/>  
             </f:facet>  
+
+		    <h:outputLink id="loginLink" value="javascript:void(0)" onclick="dlg.hide();passRecovery.show()" title="forgotpassword">     
+		        <h:outputText value="#{msg.forgotPassword}" />   
+		    </h:outputLink>
+			
         </h:panelGrid>  
     </p:dialog>  
 	</h:form>  
+
+	<h:form id="forgotForm">  
+    <p:dialog id="dialog" header="#{msg.passwordRecovery}" widgetVar="passRecovery" resizable="false">
+        <h:panelGrid columns="2" cellpadding="5">  
+            <h:outputLabel for="recoveryEmail" value="#{msg['label.email']}" />  
+            <p:inputText value="#{loginManagedBean.email}"   
+                    id="recoveryEmail" required="true" label="email" />  
+              
+            <f:facet name="footer">  
+                <p:commandButton id="recoveryButton" value="#{msg.recover}"
+                    actionListener="#{loginManagedBean.recover}"   
+                    oncomplete="handlePasswordRecovery(xhr, status, args)" ajax="false" />  
+            </f:facet>  
+			
+        </h:panelGrid>  
+    </p:dialog>  
+	</h:form>  
+
 	
 	<script type="text/javascript">  
 	    function handleLoginRequest(xhr, status, args) {  
@@ -37,6 +60,14 @@
 	        } else {  
 	            dlg.hide();  
 	            $('#loginLink').fadeOut();  
+	        }  
+	    }  
+
+	    function handlePasswordRecovery(xhr, status, args) {  
+	        if(!args.recoverySent) {  
+	        	passRecovery.jq.effect("shake", { times:5 }, 100);  
+	        } else {  
+	        	passRecovery.hide();  
 	        }  
 	    }  
 	</script>

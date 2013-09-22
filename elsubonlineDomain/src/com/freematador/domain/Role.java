@@ -10,7 +10,8 @@ public class Role {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
-	private String nombre;
+	private String name;
+	private boolean admin;
 	
 	public Role() {
 	}
@@ -21,12 +22,6 @@ public class Role {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	public String getNombre() {
-		return nombre;
-	}
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
 
 	@Override
 	public boolean equals(Object obj) {
@@ -34,15 +29,31 @@ public class Role {
 			return false;
 		}
 		
-		Role otro = (Role)obj;
+		Role another = (Role)obj;
 		
 		if (this.id != null) {
-			return this.id.equals(otro.id);
+			return this.id.equals(another.id);
 		} else {
-			return this.id == otro.id;
+			return this.id == another.id;
 		}
 		
 	}
 
-	 
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public boolean isAdmin() {
+		return admin;
+	}
+
+	public void setAdmin(boolean admin) {
+		this.admin = admin;
+	}
+	
+	
 }

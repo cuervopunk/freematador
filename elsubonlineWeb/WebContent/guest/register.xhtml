@@ -7,39 +7,39 @@
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:p="http://primefaces.org/ui"
 	xmlns:f="http://java.sun.com/jsf/core">
+	
 
-   	<!-- <h2 class="title ui-widget-header ui-corner-all">Registrate</h2> -->
-	<h:form id="registrationForm">
-	    <h:panelGrid columns="2">
-	        <h:outputLabel for="name">Nombre:</h:outputLabel>
+	<p:panel header="#{msg.registration}">
+	<h:form id="registrationForm" rendered="#{!loginManagedBean.loggedIn}" title="Registrate">
+		    <h:panelGrid columns="2">
+	        <h:outputLabel for="name" value="#{msg['label.name']}"/>
 	        <p:inputText id="name" label="name" value="#{registerManagedBean.user.name}" required="true"> 
 	            <f:ajax event="blur" render="nameMessage" />
 	        </p:inputText>
 
-	        <h:outputLabel for="surname">Apellido:</h:outputLabel>
+	        <h:outputLabel for="surname" value="#{msg['label.lastname']}"/>
 	        <p:inputText id="surname" label="surname" value="#{registerManagedBean.user.surname}" required="true"> 
 	            <f:ajax event="blur" render="surnameMessage" />
 	        </p:inputText>
 	
-	        <h:outputLabel for="email">Email</h:outputLabel>
+	        <h:outputLabel for="email" value="#{msg['label.email']}"/>
 	        <p:inputText id="email" label="Email" value="#{registerManagedBean.user.email}" required="true">
 	            <f:ajax event="blur" render="emailMessage" />
 	        </p:inputText>
 	
-	        <h:outputLabel for="password">Password</h:outputLabel>
+	        <h:outputLabel for="password" value="#{msg['label.password']}"/>
 	        <p:password id="password" label="Password" value="#{registerManagedBean.user.password}" required="true" redisplay="true">
 	            <f:ajax event="blur" render="passwordMessage" />
 	        </p:password>
 	
-	        <h:outputLabel for="telephone">Tel&eacute;fono</h:outputLabel>
+	        <h:outputLabel for="telephone" value="#{msg['label.telephone']}"/>
 	        <p:inputText id="telephone" label="Telephone" value="#{registerManagedBean.user.telephone}">
 	            <f:ajax event="blur" render="telephoneMessage" />
 	        </p:inputText>
 	
-	        <p:commandButton value="Enviar" action="#{registerManagedBean.submit}">
+	        <p:commandButton value="#{msg.register}" action="#{registerManagedBean.submit}">
 	            <f:ajax execute="@form" render="@form" />
 	        </p:commandButton>
-
 	    </h:panelGrid>
         <h:message id="nameMessage" for="name" />
         <h:message id="surnameMessage" for="surname" />
@@ -47,6 +47,5 @@
         <h:message id="emailMessage" for="email" />
         <h:message id="telephoneMessage" for="telephone" />
 	</h:form>
-
-
+	</p:panel>
 </ui:composition>

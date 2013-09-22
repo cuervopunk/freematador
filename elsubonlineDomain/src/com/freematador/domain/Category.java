@@ -2,10 +2,9 @@ package com.freematador.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -19,7 +18,7 @@ public class Category implements Serializable{
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
 	private String name;
-	@ManyToMany(fetch=FetchType.EAGER)
+	@ManyToMany(fetch=FetchType.EAGER, cascade = CascadeType.ALL)
 	private List<Category> subcategories = new ArrayList<Category>();
 	@OneToMany
 	private List<Product> products = new ArrayList<Product>();
@@ -54,6 +53,15 @@ public class Category implements Serializable{
 	}
 	public void setNodeHeight(int nodeHeight) {
 		this.nodeHeight = nodeHeight;
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (!(obj instanceof Category)) {
+			return false;
+		}		
+		Category otro = (Category)obj;
+		return this.id == otro.id;
 	}
 	
 }

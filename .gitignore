@@ -2,7 +2,11 @@
 
 # Package Files #
 *.jar
+*.pack
+*.index
 *.war
 *.ear
 *.cfs
+*.log
 /target
+/.metadata
