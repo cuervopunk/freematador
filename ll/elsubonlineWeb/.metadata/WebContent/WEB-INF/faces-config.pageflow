@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13723950290060" configfile="/elsubonlineWeb/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" x="60" y="156" id="pf13723956192360" referenceLink="//@navigationRule.2/@navigationCase.0/@toViewId|" outlinks="pf13723956192362" inlinks="pf13726313771810 pf13728243646840" path="/index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="guest/product.xhtml" x="408" y="156" id="pf13723956192373" referenceLink="//@navigationRule.5/@fromViewId|" outlinks="pf13734163380071 pf13737838765880" inlinks="pf13723956192362 pf13728243646841 pf13728245488603" path="/guest/product.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="*" id="pf13726313771811" referenceLink="//@navigationRule.1/@fromViewId|" outlinks="pf13726313771810 pf13726313771812 pf13728245488603 pf13730834158170 pf13738422268440 pf13742965867390 pf13746238270030 pf13754116741250 pf13756158685472 pf13758302574960" path="*"/>
+  <nodes xsi:type="pageflow:PFPage" name="guest/categoryListing.xhtml" id="pf13726313771813" referenceLink="//@navigationRule.2/@fromViewId|" outlinks="pf13728243646840 pf13728243646842 pf13728243646841" inlinks="pf13726313771812 pf13728243646842" path="/guest/categoryListing.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="user/sellProduct.xhtml" id="pf13730834158171" referenceLink="//@navigationRule.3/@fromViewId|" outlinks="pf13731815876150" inlinks="pf13730834158170" path="/user/sellProduct.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="user/productPublished.xhtml" id="pf13731815876151" referenceLink="//@navigationRule.4/@navigationCase.0/@toViewId|" inlinks="pf13731815876150 pf13756584723430" path="/user/productPublished.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="user/congratulations.xhtml" id="pf13734163380082" referenceLink="//@navigationRule.5/@navigationCase.0/@toViewId|" inlinks="pf13734163380071" path="/user/congratulations.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="user/highestbidder.xhtml" id="pf13737838765881" referenceLink="//@navigationRule.5/@navigationCase.1/@toViewId|" inlinks="pf13737838765880" path="/user/highestbidder.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="user/profile.xhtml" id="pf13738422268451" referenceLink="//@navigationRule.1/@navigationCase.5/@toViewId|" inlinks="pf13738422268440" path="/user/profile.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="guest/searchResults.xhtml" id="pf13742965867391" referenceLink="//@navigationRule.1/@navigationCase.6/@toViewId|" inlinks="pf13742965867390" path="/guest/searchResults.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="user/feedback.xhtml" id="pf13746238270041" referenceLink="//@navigationRule.1/@navigationCase.7/@toViewId|" inlinks="pf13746238270030" path="/user/feedback.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="user/statement.xhtml" id="pf13754116741251" referenceLink="//@navigationRule.1/@navigationCase.8/@toViewId|" inlinks="pf13754116741250" path="/user/statement.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="user/productEdition.xhtml" id="pf13756158685493" referenceLink="//@navigationRule.4/@fromViewId|" outlinks="pf13756584723430" inlinks="pf13756158685472" path="/user/productEdition.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/dashboard.xhtml" id="pf13758302574971" referenceLink="//@navigationRule.1/@navigationCase.9/@toViewId|" inlinks="pf13758302574960" path="/admin/dashboard.xhtml"/>
+  <links id="pf13723956192362" target="pf13723956192373" source="pf13723956192360" outcome="product"/>
+  <links id="pf13726313771810" target="pf13723956192360" source="pf13726313771811" outcome="index"/>
+  <links id="pf13726313771812" target="pf13726313771813" source="pf13726313771811" outcome="categoryListing"/>
+  <links id="pf13728243646840" target="pf13723956192360" source="pf13726313771813" outcome="index"/>
+  <links id="pf13728243646842" target="pf13726313771813" source="pf13726313771813" outcome="categoryListing"/>
+  <links id="pf13728243646841" target="pf13723956192373" source="pf13726313771813" outcome="product"/>
+  <links id="pf13728245488603" target="pf13723956192373" source="pf13726313771811" outcome="product"/>
+  <links id="pf13730834158170" target="pf13730834158171" source="pf13726313771811" outcome="sell"/>
+  <links id="pf13731815876150" target="pf13731815876151" source="pf13730834158171" outcome="productSellConfirmed"/>
+  <links id="pf13734163380071" target="pf13734163380082" source="pf13723956192373" outcome="congratulations"/>
+  <links id="pf13737838765880" target="pf13737838765881" source="pf13723956192373" outcome="highestbidder"/>
+  <links id="pf13738422268440" target="pf13738422268451" source="pf13726313771811" outcome="profile"/>
+  <links id="pf13742965867390" target="pf13742965867391" source="pf13726313771811" outcome="search"/>
+  <links id="pf13746238270030" target="pf13746238270041" source="pf13726313771811" outcome="feedback"/>
+  <links id="pf13754116741250" target="pf13754116741251" source="pf13726313771811" outcome="statement"/>
+  <links id="pf13756158685472" target="pf13756158685493" source="pf13726313771811" outcome="productEdition"/>
+  <links id="pf13756584723430" target="pf13731815876151" source="pf13756158685493" outcome="productSellConfirmed"/>
+  <links id="pf13758302574960" target="pf13758302574971" source="pf13726313771811" outcome="admin"/>
+</pageflow:Pageflow>

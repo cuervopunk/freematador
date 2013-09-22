@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<faces-config
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_1.xsd"
+    version="2.1">
+ 
+<navigation-rule>
+	<from-view-id>/index.xhtml</from-view-id>
+	<navigation-case>
+		<from-outcome>product</from-outcome>
+		<to-view-id>/guest/product.xhtml</to-view-id>
+	</navigation-case>
+</navigation-rule>
+ 
+
+<navigation-rule>
+	<from-view-id>*</from-view-id>
+	<navigation-case>
+		<from-outcome>index</from-outcome>
+		<to-view-id>/index.xhtml</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>categoryListing</from-outcome>
+		<to-view-id>/guest/categoryListing.xhtml</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>product</from-outcome>
+		<to-view-id>/guest/product.xhtml</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>productEdition</from-outcome>
+		<to-view-id>/user/productEdition.xhtml</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>sell</from-outcome>
+		<to-view-id>/user/sellProduct.xhtml</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>profile</from-outcome>
+		<to-view-id>/user/profile.xhtml</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>search</from-outcome>
+		<to-view-id>/guest/searchResults.xhtml</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>feedback</from-outcome>
+		<to-view-id>/user/feedback.xhtml</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>statement</from-outcome>
+		<to-view-id>/user/statement.xhtml</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>admin</from-outcome>
+		<to-view-id>/admin/dashboard.xhtml</to-view-id>
+	</navigation-case>
+</navigation-rule>
+
+ <navigation-rule>
+	<from-view-id>/guest/categoryListing.xhtml</from-view-id>
+	<navigation-case>
+		<from-outcome>index</from-outcome>
+		<to-view-id>/index.xhtml</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>categoryListing</from-outcome>
+		<to-view-id>/guest/categoryListing.xhtml</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>product</from-outcome>
+		<to-view-id>/guest/product.xhtml</to-view-id>
+	</navigation-case>  
+</navigation-rule>
+
+<navigation-rule>
+	<from-view-id>/user/sellProduct.xhtml</from-view-id>
+	<navigation-case>
+		<from-outcome>productSellConfirmed</from-outcome>
+		<to-view-id>/user/productPublished.xhtml</to-view-id>
+	</navigation-case>
+</navigation-rule> 
+
+<navigation-rule>
+	<from-view-id>/user/productEdition.xhtml</from-view-id>
+	<navigation-case>
+		<from-outcome>productSellConfirmed</from-outcome>
+		<to-view-id>/user/productPublished.xhtml</to-view-id>
+	</navigation-case>
+</navigation-rule> 
+
+ <navigation-rule>
+	<from-view-id>/guest/product.xhtml</from-view-id>
+	<navigation-case>
+		<from-outcome>congratulations</from-outcome>
+		<to-view-id>/user/congratulations.xhtml</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>highestbidder</from-outcome>
+		<to-view-id>/user/highestbidder.xhtml</to-view-id>
+	</navigation-case>
+</navigation-rule> 
+
+<application>
+	<resource-bundle>
+		<base-name>com.freematador.messages</base-name>
+		<var>msg</var>
+	</resource-bundle>
+</application>
+
+    
+</faces-config>

@@ -1,0 +1,28 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+
+	<persistence-unit name="ElSubOnlineUNIT" transaction-type="JTA">
+		<jta-data-source>java:jboss/datasources/ElSubOnlineDS</jta-data-source>
+		<class>com.freematador.domain.User</class>
+		<class>com.freematador.domain.Role</class>
+		<class>com.freematador.domain.Category</class>
+		<class>com.freematador.domain.Product</class>
+		<class>com.freematador.domain.Bid</class>
+		<class>com.freematador.domain.Question</class>
+		<class>com.freematador.domain.Store</class>
+		<class>com.freematador.domain.Picture</class>
+		<class>com.freematador.domain.Operation</class>
+		<class>com.freematador.domain.Fee</class>
+		<class>com.freematador.domain.Statement</class>
+		<class>com.freematador.domain.Payment</class>
+		<class>com.freematador.domain.Parameter</class>
+		<class>com.freematador.domain.Notification</class>
+		<class>com.freematador.mailer.Mail</class>
+		<properties>
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+		</properties>
+	</persistence-unit>
+
+</persistence>

@@ -1,0 +1,311 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"
+	template="/templates/template.xhtml">
+	
+	<ui:define name="metadata">
+	</ui:define>
+
+	<ui:define name="content">
+		<p:accordionPanel id="profileAccordion">  
+		    <p:tab title="Ventas (#{profileManagedBean.pendingOperations.size()})">
+		    	<!-- 
+		    	<h:outputText value="No tiene notificaciones." />
+		    	<h:outputText value="Tiene operaciones por evaluar." />
+				<h:link value="Ver Operaciones." outcome="feedback"/>
+				 -->
+
+					<h:outputText value="#{msg.noOperationsPendingClosure}" rendered="#{profileManagedBean.pendingOperations.size() eq 0}"/>
+					<h:outputText value="#{msg.operationsPendingClosure}" rendered="#{profileManagedBean.pendingOperations.size() gt 0}"/>
+		        	<h:link outcome="feedback" value="#{msg.viewSells}"  rendered="#{profileManagedBean.pendingOperations.size() gt 0}"/>
+		        	
+			</p:tab>
+		    <p:tab title="#{msg.paymentsAndStatements}">
+				<p:tabView id="statementTabView">  				  
+				    <p:tab id="tabStatement" title="${msg.statementsToPay}">
+					<h:form prependId="false">    
+					    <p:dataTable id="pendingStatements" var="statement" value="#{profileManagedBean.pendingStatements}"  
+					                 paginator="false" rows="5">  
+					        <f:facet name="header">  
+					            <h:outputText value="#{msg.pendingStatements}" />
+					        </f:facet>    
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.statementDueDate}" />  
+					            </f:facet>  
+					            <h:outputText value="#{statement.due}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.amount}" />  
+					            </f:facet>  
+					            <h:outputText value="#{statement.total}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="" />  
+					            </f:facet>  
+					            <h:link value="${msg.viewDetail}" outcome="statement">
+									<f:param name="id" value="#{statement.id}"/>
+					            </h:link>
+					        </p:column>  					    
+					        </p:dataTable>  
+					</h:form>  
+				    </p:tab>
+				    <p:tab id="tabNextStatement" title="${msg.unbilledCharges}">
+					<h:form prependId="false">    
+					    <p:dataTable id="unbilledOperations" var="operation" value="#{profileManagedBean.unbilledOperations}"  
+					                 paginator="false" rows="5">  
+					        <f:facet name="header">  
+					            <h:outputText value="#{msg.unbilledCharges}" />
+					        </f:facet>    
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.date}" />  
+					            </f:facet>  
+					            <h:outputText value="#{operation.date}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.product}" />  
+					            </f:facet>  
+					            <h:outputText value="#{operation.product.shortDescription}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.buyer}" />  
+					            </f:facet>  
+					            <h:outputText value="#{operation.buyer.email}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.feeDescription}" />  
+					            </f:facet>  
+					            <h:outputText value="#{operation.fee.description}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.amount}" />  
+					            </f:facet>  
+					            <h:outputText value="#{operation.fee.amount}" />  
+					        </p:column>  
+					    </p:dataTable>  
+					</h:form>  
+				    </p:tab>
+				    <p:tab id="tabStatementHistory" title="#{msg.statementHistory}">
+				    <h:form prependId="false">    
+					    <p:dataTable id="statementHistory" var="statement" value="#{profileManagedBean.statementHistory}"  
+					                 paginator="false" rows="5">  
+					        <f:facet name="header">  
+					            <h:outputText value="#{msg.statementHistory}" />
+					        </f:facet>    
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.dueDate}" />  
+					            </f:facet>  
+					            <h:outputText value="#{statement.due}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.paymentDate}" />  
+					            </f:facet>  
+					            <h:outputText value="#{statement.payment.date}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.amount}" />  
+					            </f:facet>  
+					            <h:outputText value="#{statement.total}" />  
+					        </p:column>  
+					    </p:dataTable>  
+					</h:form> 
+				    </p:tab>
+				</p:tabView>	      
+			</p:tab>
+		    <p:tab title="#{msg.myprofile}">  
+		        <h:form id="updateProfileForm">  
+				<p:messages id="messages" name="messages" showDetail="true" autoUpdate="true" closable="true" />		
+		        <h:panelGrid columns="2">
+		            <h:outputText value="#{msg['label.name']}" />
+		            <p:inputText id="name" value="#{loginManagedBean.user.name}"/>  
+		            <h:outputText value="#{msg['label.lastname']}"/>
+		            <p:inputText id="surname" value="#{loginManagedBean.user.surname}" />  
+		            <h:outputText value="#{msg['label.email']}"/>
+		            <p:inputText id="email" value="#{loginManagedBean.user.email}" readonly="true"/>  
+		            <h:outputText value="#{msg['label.password']}"/>
+		            <p:inputText id="password" value="#{loginManagedBean.user.password}" type="password"/>
+		            <h:outputText value="#{msg['label.telephone']}"/>
+		            <p:inputText id="telephone" value="#{loginManagedBean.user.telephone}"/>
+		            
+		            <p:commandButton update="messages" value="#{msg.save}" action="#{profileManagedBean.updateUser}">
+			            <f:ajax execute="@form" render="@form" />
+			        </p:commandButton>
+		        </h:panelGrid>  
+			    </h:form>
+		    </p:tab>  
+		    <p:tab id="questionsTab" title="#{msg.questions} (#{profileManagedBean.questions.size()})">  
+				<h:form id="questionForm">
+			        <ui:repeat value="#{profileManagedBean.questions}" var="question">
+			        	<div>#{question.product.shortDescription}</div>  $#{question.product.productPrice}
+			        	<br/><br/>
+			    		<div style="font-weight: strong;">#{question.questionText}</div>
+			    		<h:inputText value="#{question.answerText}" />	
+			    		<p:separator/>
+					</ui:repeat>
+					<h:outputText value="#{msg.noPendingQuestions}" rendered="#{profileManagedBean.questions.size() eq 0}"/>
+		    		<p:commandButton action="#{profileManagedBean.saveAnswers}" value="#{msg.sendAnswers}" rendered="#{profileManagedBean.questions.size() gt 0}" update="questionForm" >
+			            <f:ajax execute="@form" render="@form" />
+			        </p:commandButton>
+				</h:form>
+   		    </p:tab>  
+		    <p:tab title="#{msg.selling}">  
+		        <h:panelGrid columns="2" cellpadding="10">  
+				<p:tabView id="publishedItemsTabView">  				  
+				    <p:tab title="#{msg.active}">
+				    <h:form prependId="false">    
+					    <p:dataTable id="activeProductsTable" var="product" value="#{profileManagedBean.activeProducts}"  
+					                 paginator="true" rows="5">  
+					        <f:facet name="header">  
+					            <h:outputText value="#{msg.publishedProducts}"/>
+					        </f:facet>    
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.description}" />  
+					            </f:facet>  
+					            <h:outputText value="#{product.shortDescription}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.price}" />  
+					            </f:facet>  
+					            <h:outputText value="#{product.productPrice}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.ending}" />  
+					            </f:facet>  
+					            <h:outputText value="#{product.endingDate}" />  
+					        </p:column>  
+					        <p:column>  
+								<h:link outcome="productEdition" value="#{msg.edit}" includeViewParams="true">
+									<f:param name="id" value="#{product.id}"/>
+								</h:link> 
+					        </p:column>  
+					    </p:dataTable>  
+					</h:form> 
+					</p:tab>
+				    <p:tab title="#{msg.finished}">
+					<h:form prependId="false">    
+					    <p:dataTable id="inactiveProductsTable" var="product" value="#{profileManagedBean.inactiveProducts}"  
+					                 paginator="false" rows="5">  
+					        <f:facet name="header">  
+					            <h:outputText value="#{msg.finishedProducts}"/>
+					        </f:facet>    
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.description}" />  
+					            </f:facet>  
+					            <h:outputText value="#{product.shortDescription}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.price}" />  
+					            </f:facet>  
+					            <h:outputText value="#{product.productPrice}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.ending}" />  
+					            </f:facet>  
+					            <h:outputText value="#{product.endingDate}" />  
+					        </p:column>  
+					    </p:dataTable>  
+					</h:form>
+					</p:tab>
+				</p:tabView>  				  
+		        </h:panelGrid>  
+		    </p:tab>  
+		    <p:tab title="#{msg.history}">  
+				<p:tabView id="tabView">  				  
+				    <p:tab id="tab1" title="#{msg.buying}">  
+					<h:form prependId="false">    
+					    <p:dataTable id="shoppingHistory" var="operation" value="#{profileManagedBean.shoppingHistory}"  
+					                 paginator="true" rows="10"  
+					                 paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"  
+					                 rowsPerPageTemplate="5,10,15">  
+					        <f:facet name="header">  
+					            <h:outputText value="#{msg.buying}" />
+					        </f:facet>    
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.date}" />  
+					            </f:facet>  
+					            <h:outputText value="#{operation.date}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.product}" />  
+					            </f:facet>  
+					            <h:outputText value="#{operation.product.shortDescription}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.price}" />  
+					            </f:facet>  
+					            <h:outputText value="#{operation.product.productPrice}" />  
+					        </p:column>
+					    </p:dataTable>  
+					</h:form>  
+				    </p:tab>  
+				    <p:tab id="tab2" title="#{msg.sells}">  
+					<h:form prependId="false">    
+					    <p:dataTable id="salesHistory" var="operation" value="#{profileManagedBean.salesHistory}"  
+					                 paginator="true" rows="10"  
+					                 paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"  
+					                 rowsPerPageTemplate="5,10,15">  
+					        <f:facet name="header">  
+					            <h:outputText value="#{msg.sells}" />
+					        </f:facet>    
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.date}" />  
+					            </f:facet>  
+					            <h:outputText value="#{operation.date}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.product}" />  
+					            </f:facet>  
+					            <h:outputText value="#{operation.product.shortDescription}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.price}" />  
+					            </f:facet>  
+					            <h:outputText value="#{operation.product.productPrice}" />  
+					        </p:column>  
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="#{msg.effective}" />  
+					            </f:facet>  
+					            <h:outputText value="" />  
+					        </p:column>  
+					        <!-- 
+					        <p:column>  
+					            <f:facet name="header">  
+					                <h:outputText value="Comprador" />  
+					            </f:facet>  
+					            <h:outputText value="#{operation.buyer.name}" />  
+					        </p:column>
+					         -->  
+					    </p:dataTable>  
+					</h:form>  
+				    </p:tab>  				  
+				</p:tabView> 
+
+		    </p:tab>  
+		</p:accordionPanel>  
+	</ui:define>
+</ui:composition>

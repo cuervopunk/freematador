@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="elsubonline">
+        <dependent-module archiveName="elsubonlineEjbs.jar" deploy-path="/" handle="module:/resource/elsubonlineEjbs/elsubonlineEjbs">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="elsubonlineDomain.jar" deploy-path="/lib" handle="module:/resource/elsubonlineDomain/elsubonlineDomain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="elsubonlineWeb.war" deploy-path="/" handle="module:/resource/elsubonlineWeb/elsubonlineWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

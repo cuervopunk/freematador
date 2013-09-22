@@ -1,0 +1,53 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core" id="header">
+
+	<div class="ui-widget ui-widget-header" style="height: 80px;">
+       	<h:panelGrid columns="3" width="100%">
+          	<h:panelGroup>
+				<div id="logo" style="float: left;">
+					<h:outputLink value="#{request.contextPath}/index.xhtml">
+						<img src="#{request.contextPath}/resources/images/logo2.gif" alt="Logo" border="0"/>
+					</h:outputLink>
+				</div>
+			</h:panelGroup>
+          	<h:panelGroup>
+				<div>
+	          		<h:form id="searchForm">
+						<p:inputText value="#{searchManagedBean.searchTerm}" />						
+						<p:commandButton action="#{searchManagedBean.searchProduct}" value="#{msg.search}" ajax="false"/>
+					</h:form>		            			            
+				</div>
+			</h:panelGroup>
+			<h:panelGroup>
+	          	<div id="topmenu" style="float:right;padding-right: 20px;text-align: right;">
+	          		<br/>
+	 			    <h:outputText name="logginName" id="logginName" value="#{loginManagedBean.user.email}"/>
+	 			    <h:outputText name="welcomeMessage" id="welcomeMessage" rendered="#{!loginManagedBean.loggedIn}" value="#{msg.welcomeTo} ElSubOnline!"/>
+	 			    <br/>
+				    <h:form style="font-size:15px" id="headerMenu">
+				    	<h:panelGrid cellpadding="5" columns="4">
+						    <h:outputLink id="loginLink" value="javascript:void(0)" onclick="dlg.show()" title="login" rendered="#{!loginManagedBean.loggedIn}">     
+						        <h:outputText value="#{msg.login}" />   
+						    </h:outputLink>
+						    <h:link id="sellLink" name="sellLink" outcome="sell" title="sell" rendered="#{loginManagedBean.loggedIn}">     
+						        <h:outputText value="#{msg.sell}"/>   
+						    </h:link>
+						    <h:link id="profileLink" name="profileLink" outcome="profile" title="profile" rendered="#{loginManagedBean.loggedIn}">     
+						        <h:outputText value="#{msg.myaccount}"/>   
+						    </h:link>
+						    <h:link id="adminLink" name="adminLink" outcome="admin" title="admin" rendered="#{loginManagedBean.admin}">     
+						        <h:outputText value="#{msg.admin}"/>   
+						    </h:link>
+						    <h:commandLink id="logoutLink" action="#{loginManagedBean.logout}" title="logout" rendered="#{loginManagedBean.loggedIn}">     
+						        <h:outputText value="#{msg.logout}"/>   
+						    </h:commandLink>
+					    </h:panelGrid>
+				    </h:form>
+				</div>
+			</h:panelGroup>
+	    </h:panelGrid>			  
+	</div>			
+</ui:composition>

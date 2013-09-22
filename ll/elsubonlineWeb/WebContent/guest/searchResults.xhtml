@@ -1,0 +1,37 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"
+	template="/templates/template.xhtml">
+	
+	<ui:define name="metadata">
+		<f:event type="preRenderView" listener="#{searchGridManagedBean.init}"/>
+		<f:attribute name="searchTerm" value="#{searchManagedBean.searchTerm}" />
+	</ui:define>
+	
+	<ui:define name="content">
+		<h:form>            
+			<p:dataGrid var="product" value="#{searchGridManagedBean.searchResults}" columns="1" rowIndexVar="rowIndex"
+		        rows="3" paginator="true"  
+		        paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"  
+		        rowsPerPageTemplate="3,6,12" id="categoryGrid"> 
+	
+		        <p:panel header="#{product.shortDescription}" style="text-align:center">
+		            <h:panelGrid columns="2" style="width:100%">  
+		                <p:graphicImage value="/images/#{product.pictures[0].fileName}" height="80px"/>   
+		                <h:panelGroup>
+			                <h:outputText value="#{product.longDescription}" /><br/> 	  
+			                <h:outputText value="$#{product.productPrice}" /><br/>
+			                <p:column>
+							<h:link value="Ver Mas" outcome="product">
+								<f:param name="id" value="#{product.id}"/>
+							</h:link>
+				            </p:column>  
+		                </h:panelGroup>
+		            </h:panelGrid>  
+		        </p:panel>
+		    </p:dataGrid>  
+		</h:form>		
+	</ui:define>
+</ui:composition>

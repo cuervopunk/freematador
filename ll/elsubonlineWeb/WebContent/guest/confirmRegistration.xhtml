@@ -1,0 +1,37 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"
+	template="/templates/template.xhtml">
+
+<f:metadata>
+	<f:event type="preRenderView" listener="#{userManagedBean.confirmRegistration}"/>
+	<f:attribute name="userId" value="#{param['id']}" />
+</f:metadata>
+	
+<ui:define name="metadata">
+</ui:define>
+
+<ui:define name="content">
+		<!-- <h2 class="title ui-widget-header ui-corner-all">Destacados</h2> -->
+	
+	<p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" />
+		
+	<p:carousel id="basicCarousel" value="#{homeManagedBean.highlightedProducts}" var="product" numVisible="3">  
+	    <f:facet name="header">  
+	            Destacados  
+	    </f:facet>
+	    <h:form>  
+	    <h:panelGrid columns="1" cellpadding="5" width="308" height="300">  
+	        <p:graphicImage value="/images/#{product.pictures[0].fileName}" height="100" width="100"/>
+	        <h:commandLink action="#{homeManagedBean.viewProduct}">
+	        	<f:param name="productId" value="#{product.id}" />
+		        <h:outputText value="#{product.shortDescription}"  />
+	        </h:commandLink>  
+        	<h:outputText value="$#{product.productPrice}" />
+	    </h:panelGrid>
+	    </h:form>
+	</p:carousel>   
+	</ui:define>
+</ui:composition>

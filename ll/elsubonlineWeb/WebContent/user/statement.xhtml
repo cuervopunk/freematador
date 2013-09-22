@@ -1,0 +1,58 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"
+	template="/templates/template.xhtml">
+	
+	<ui:define name="metadata">
+	</ui:define>
+
+	<ui:define name="content">
+		<p:panel id="theStatement">
+
+		<p:panel id="statementHeader">
+			<h:panelGrid columns="2">
+				<h:outputLabel value="#{msg['label.statementDueDate']}" /><h:outputText value="#{statementManagedBean.statement.due}" />
+				<h:outputLabel value="#{msg['label.name']}" /><h:outputFormat value="#{statementManagedBean.statement.user.name} #{statementManagedBean.statement.user.surname}" />
+				<h:outputLabel value="#{msg['label.identification']} " /><h:outputFormat value="#{statementManagedBean.statement.id}" />
+			</h:panelGrid>
+		</p:panel>
+
+		<p:panel id="statementDetail">
+		<h:form prependId="false">    
+		    <p:dataTable id="unbilledOperations" var="fee" value="#{statementManagedBean.statement.fees}"  
+		                 paginator="false" rows="5">  
+		        <f:facet name="header">  
+		            <h:outputText value="#{msg.detail}"/>
+		        </f:facet>    
+		        <p:column>  
+		            <f:facet name="header">  
+		                <h:outputText value="#{msg.amount}" />  
+		            </f:facet>  
+		            <h:outputText value="#{fee.amount}" />  
+		        </p:column>  
+		        <p:column>  
+		            <f:facet name="header">  
+		                <h:outputText value="#{msg.description}" />  
+		            </f:facet>  
+		            <h:outputText value="#{fee.description}" />  
+		        </p:column>  
+		    </p:dataTable>  
+		</h:form>  
+		</p:panel>
+				
+		<p:panel id="statementFooter">
+			<h:panelGrid columns="2">
+				<h:outputLabel value="#{msg['label.total']}" /><h:outputText value="#{statementManagedBean.statement.total}" />
+			</h:panelGrid>
+		</p:panel>
+		
+		</p:panel>
+		
+		<h:commandButton value="#{msg.print}" type="button" icon="ui-icon-print">  
+        	<p:printer target="theStatement" />  
+  		</h:commandButton>  
+   		
+	</ui:define>
+</ui:composition>

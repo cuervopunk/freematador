@@ -1,0 +1,99 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"
+	template="/templates/template.xhtml">
+	
+	<ui:define name="metadata">
+	</ui:define>
+
+	<ui:define name="content">
+ 	<h:form id="productForm" enctype="multipart/form-data">
+ 	  <p:wizard widgetVar="wiz"  
+            flowListener="#{sellProductManagedBean.onFlowProcess}" nextLabel="#{msg.next}" backLabel="#{msg.previous}" >  
+      
+        <p:tab id="category" title="#{msg.category}">    
+            <p:panel header="#{msg.selectCategory}">  
+                <h:messages errorClass="error"/>  
+                <h:panelGrid columns="3" columnClasses="label, value" styleClass="grid">  
+				 	<h:selectOneListbox id="category1" value="#{sellProductManagedBean.categoryId}" style="height: 200px; vertical-align:top" valueChangeListener="#{sellProductManagedBean.categoryChange}">
+				        <f:selectItems value="#{sellProductManagedBean.getCategoriesByNodeHeight()}" var="category" itemValue="#{category.id}" itemLabel="#{category.name}"/>
+				        <f:ajax event="change"  render=":productForm:category2"  update=":productForm:category2"/>
+				    </h:selectOneListbox>
+				 	<h:selectOneListbox id="category2" value="#{sellProductManagedBean.subcategoryId1}"  style="height: 200px; vertical-align:top" valueChangeListener="#{sellProductManagedBean.categoryChange}">
+				        <f:selectItems value="#{sellProductManagedBean.subcategoriesFirstLevel}" var="category" itemValue="#{category.id}" itemLabel="#{category.name}"/>
+				        <f:ajax event="change"  render=":productForm:category3" update=":productForm:category3" />  
+				    </h:selectOneListbox>
+				 	<h:selectOneListbox id="category3" value="#{sellProductManagedBean.subcategoryId2}"  style="height: 200px; vertical-align:top;" valueChangeListener="#{sellProductManagedBean.categoryChange}">
+				        <f:selectItems value="#{sellProductManagedBean.subcategoriesSecondLevel}" var="category" itemValue="#{category.id}" itemLabel="#{category.name}"/>
+				    </h:selectOneListbox>
+                </h:panelGrid>  
+            </p:panel>  
+        </p:tab>  
+              
+        <p:tab id="description" title="#{msg.description}" >  
+            <p:panel header="#{msg.describeProduct}">  
+                <h:messages errorClass="error"/>  
+                <h:panelGrid columns="2" columnClasses="label, value">
+                	<h:outputText value="#{msg['label.title']}"/>
+                	<p:inputText required="true" label="#{msg['label.title']}" value="#{sellProductManagedBean.product.shortDescription}"></p:inputText>  
+                	<h:outputText value="Descripcion: "/>
+                	<p:inputTextarea required="true" label="#{msg['label.description']}" value="#{sellProductManagedBean.product.longDescription}"></p:inputTextarea>
+				</h:panelGrid>
+                <h:panelGrid columns="2" columnClasses="label, value">
+				    <p:fileUpload fileUploadListener="#{sellProductManagedBean.handleFileUpload}"  
+				            mode="advanced"  
+				            update="messages"   
+				            multiple="true"  
+				            sizeLimit="500000"   
+				            allowTypes="/(\.|\/)(gif|jpe?g|png)$/" 
+				            cancelLabel="#{msg.cancel}" uploadLabel="#{msg.upload}" label="#{msg.select}" />  
+				    <p:growl id="messages" showDetail="true"/>  
+                </h:panelGrid>  
+            </p:panel>  
+        </p:tab>  
+              
+        <p:tab id="conditions" title="#{msg.conditions}" >  
+            <p:panel header="#{msg.sellConditions}">                    
+                <h:messages errorClass="error"/>                
+                <h:panelGrid columns="2" columnClasses="label, value">  
+                	<h:outputText value="#{msg['label.sellType']}"/>
+					<p:selectOneRadio id="options" value="#{sellProductManagedBean.product.saleType}" required="true" >  
+			            <f:selectItem itemLabel="#{msg.auction}" itemValue="1"  />  
+			            <f:selectItem itemLabel="#{msg.fixedPrice}" itemValue="2" />  
+			        </p:selectOneRadio> 
+                	<h:outputText value="#{msg['label.price']}"/>
+                	<p:inputText required="true" label="#{msg['label.price']}" value="#{sellProductManagedBean.product.basePrice}">
+                		<f:validateDoubleRange minimum="1"/>
+                	</p:inputText>  
+					<h:outputText value="#{msg['label.highlight']} "/>
+					<h:selectBooleanCheckbox value="#{sellProductManagedBean.product.highlight}" />	              
+                </h:panelGrid>  
+            </p:panel>  
+        </p:tab>  
+              
+        <p:tab id="confirm" title="#{msg.confirmation}" >  
+            <p:panel header="#{msg.confirmData}">                
+                <h:panelGrid id="confirmation" columns="2">  
+                	<h:outputText value="#{msg['label.title']}"/>
+                	<h:outputText value="${sellProductManagedBean.product.shortDescription}"/>                	
+                	<h:outputText value="#{msg['label.description']}"/>
+                	<h:outputText value="${sellProductManagedBean.product.longDescription}"/>                	
+                	
+                	<h:outputText value="#{msg['label.category']}"/>
+                	<h:outputText value="${sellProductManagedBean.product.category.name}"/>                	
+
+                	<h:outputText value="#{msg['label.sellType']}"/>                	
+                	<h:outputText value="${sellProductManagedBean.product.saleType}"/>                	
+                	<h:outputText value="#{msg['label.price']}"/>                	
+                	<h:outputText value="${sellProductManagedBean.product.basePrice}"/>                	
+                </h:panelGrid>                    
+                <p:commandButton value="#{msg.save}" 
+                            action="#{sellProductManagedBean.save}"/>  
+            </p:panel>  
+        </p:tab>  
+    </p:wizard>  
+    </h:form>  
+	</ui:define>
+</ui:composition>

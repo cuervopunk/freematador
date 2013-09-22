@@ -1,0 +1,104 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"
+	template="/templates/template.xhtml">
+	
+	<ui:define name="metadata">
+	</ui:define>
+
+	<ui:define name="content">
+	<p:panel header="#{productManagedBean.product.shortDescription}">
+	<h:form id="form">					
+		<h:panelGrid columns="2" style="padding-right: 40px" >
+			<h:panelGroup>
+				<p:commandButton type="button" onclick="switcher.previous();"  
+			                icon="ui-icon-circle-triangle-w"/>  
+				<p:commandButton type="button" onclick="switcher.next();"  
+			                icon="ui-icon-circle-triangle-e"/>  
+			  
+				<p:imageSwitch effect="none" widgetVar="switcher" slideshowAuto="false">  
+				    <ui:repeat value="#{productManagedBean.product.pictures}" var="image">  
+				        <p:graphicImage value="/images/#{image.fileName}" height="250px" />  
+				    </ui:repeat>  
+				</p:imageSwitch>
+				<br/>
+			</h:panelGroup>
+			<h:panelGroup>
+				<div style="padding-left:20px">
+				<h:outputText value="#{productManagedBean.product.shortDescription}"/><br/><br/>
+				<h:outputText value="#{productManagedBean.product.longDescription}"/><br/><br/>
+				<h:outputText value="$#{productManagedBean.minimumBid}"/><br/><br/>
+				<h:outputText value="#{productManagedBean.product.endingDate}"/><br/><br/>
+				
+				<p:commandButton update=":form:buyDetail" type="button" rendered="${productManagedBean.product.active and productManagedBean.product.saleType eq 1}" value="Ofertar" onclick="bidDialog.show();return false;"/>
+				<p:commandButton update=":form:buyDetail" type="button" rendered="${productManagedBean.product.active and productManagedBean.product.saleType eq 2}" value="Comprar" onclick="buyDialog.show();return false;"/>
+				<br/>
+
+				<h:outputText value="Esta venta ha finalizado." rendered="#{!productManagedBean.product.active}"/><br/>
+				</div>				
+			</h:panelGroup>
+		</h:panelGrid>
+    </h:form>
+	</p:panel>
+	<p:dialog header="#{msg.buyConfirmation}" widgetVar="buyDialog" modal="true" appendToBody="true">
+		<h:form id="dialogForm">  
+        <p:outputPanel id="buyDetail">  
+            <h:panelGrid  columns="2" cellpadding="5">  
+                <h:outputLabel for="dialogDescription" value="#{msg['label.title']}" />  
+                <h:outputText id="dialogDescription" value="#{productManagedBean.product.shortDescription}" />  
+                  
+                <h:outputLabel for="dialogPrice" value="#{msg['label.price']}" />  
+                <h:outputText id="dialogPrice" value="$#{productManagedBean.product.productPrice}" />
+
+				<p:commandButton action="#{productManagedBean.buyProduct}" value="#{msg.confirm}" update=":dialogForm:buyDetail" >
+					<f:param name="id" value="#{param.id}" />
+				</p:commandButton>
+				<p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" />
+            </h:panelGrid>  
+        </p:outputPanel>
+		</h:form>	          
+  		</p:dialog>
+	
+		<p:dialog header="#{msg.bidOnProduct}" widgetVar="bidDialog" modal="true" appendToBody="true">
+			<h:form id="dialogBidForm">  
+	        <p:outputPanel id="bidDetail">  
+	            <h:panelGrid  columns="2" cellpadding="5">  
+	                <h:outputLabel for="dialogBidDescription" value="#{msg['label.title']}" />  
+	                <h:outputText id="dialogBidDescription" value="#{productManagedBean.product.shortDescription}" />  
+	                  
+	                <h:outputLabel for="dialogMinimumPrice" value="#{msg['label.maxBid']}" />  
+	                <h:outputText id="dialogMinimumPrice" value="$#{productManagedBean.minimumBid}" />  
+	
+	                <h:outputLabel for="dialogBidPrice" value="#{msg[label.yourBid]}" />
+	                <h:inputText id="dialogBidPrice" value="${productManagedBean.newBid}" />  
+
+					<p:commandButton action="#{productManagedBean.bidProduct}" value="#{msg.confirm}" update=":dialogForm:buyDetail" >
+						<f:param name="id" value="#{param.id}" />
+					</p:commandButton>
+					<p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" />
+	            </h:panelGrid>  
+	        </p:outputPanel>
+			</h:form>	          
+	  	</p:dialog>
+	<p:panel id="questionsPanel" name="questionsPanel" header="#{msg.questionsToSeller}">
+	
+		<h:form id="questionForm">
+			<h:inputText id="question" value="${productManagedBean.newQuestion}"  size="70" />
+			<p:commandButton value="#{msg.ask}" action="${productManagedBean.askQuestion}" update="questionForm" >
+					<f:param name="id" value="#{param.id}" />
+			        <f:ajax execute="@form" render="@form" />
+	        </p:commandButton>
+			<br/><br/>
+       
+	        <ui:repeat value="#{productManagedBean.product.questions}" var="question">
+	    		<div style="font-weight: strong;"><h:outputText value="#{msg[label.question]} #{question.questionText}"/></div>
+	    		<div style="spacing-left: 20px"><h:outputText value="#{msg[label.answer]} #{question.answerText}" rendered="#{question.answerText.length() gt 0}"/></div>
+	    		<p:separator/>
+			</ui:repeat> 
+		</h:form>
+         
+    </p:panel>  	  		
+	</ui:define>
+</ui:composition>

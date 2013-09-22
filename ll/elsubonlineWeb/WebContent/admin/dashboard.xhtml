@@ -1,0 +1,69 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"
+	template="/templates/template.xhtml">
+	
+	<ui:define name="metadata">
+	</ui:define>
+
+	<ui:define name="content">
+		<p:accordionPanel id="profileAccordion">  
+		    <p:tab title="#{msg.configuration}">
+		    <h:form id="form">  
+  				<p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" />		
+			    <p:dataTable id="parameters" var="parameter" value="#{dashboardManagedBean.parameters}" editable="true" editMode="cell" widgetVar="parametersTable">  
+			           <f:facet name="header">  
+			               <h:outputText value="#{msg.systemParameters}"/>  
+			           </f:facet>  
+			           <p:ajax event="cellEdit" listener="#{dashboardManagedBean.onCellEdit}" update=":profileAccordion:form:messages" />  
+			           <p:column headerText="#{msg.parameter}" style="width:25%">  
+			               <p:cellEditor>  
+			                   <f:facet name="output"><h:outputText value="#{parameter.description}" /></f:facet>  
+			                   <f:facet name="input"><p:inputText id="parameterNameInput" value="#{parameter.description}" style="width:96%"/></f:facet>  
+			               </p:cellEditor>  
+			           </p:column>  
+			           <p:column headerText="#{msg.value}" style="width:75%">  
+			               <p:cellEditor>  
+			                   <f:facet name="output"><h:outputText value="#{parameter.value}" /></f:facet>  
+			                   <f:facet name="input"><p:inputText id="parameterValueInput" value="#{parameter.value}" style="width:96%"/></f:facet>  
+			               </p:cellEditor>  
+			           </p:column>  			  
+			    </p:dataTable>
+			    <p:commandButton value="#{msg.accept}" action="#{dashboardManagedBean.save}" ajax="false"/>
+			</h:form>  
+			</p:tab>
+		    <p:tab title="#{msg.categoryEdition}">		    
+		    <h:form id="categoryForm">
+			    <p:panel header="#{msg.selectCategory}">  
+	                <h:messages errorClass="error"/>  
+	                <h:panelGrid columns="4" columnClasses="label, value" styleClass="grid">  
+					 	<h:selectOneListbox id="category1" value="#{dashboardManagedBean.categoryId}" style="height: 200px; vertical-align:top" valueChangeListener="#{dashboardManagedBean.categoryChange}" >
+					        <f:selectItems value="#{dashboardManagedBean.getCategoriesByNodeHeight()}" var="category" itemValue="#{category.id}" itemLabel="#{category.name}" />
+					        <f:ajax event="change" render="category2 category3 categoryPath addCategoryButton newCategory" update="category2 category3 categoryPath addCategoryButton newCategory"/>
+					    </h:selectOneListbox>
+					 	<h:selectOneListbox id="category2" value="#{dashboardManagedBean.subcategoryId1}"  style="height: 200px; vertical-align:top" valueChangeListener="#{dashboardManagedBean.categoryChange}" >
+					        <f:selectItems value="#{dashboardManagedBean.subcategoriesFirstLevel}" var="category" itemValue="#{category.id}" itemLabel="#{category.name}"/>
+					        <f:ajax event="change" render="category3 categoryPath addCategoryButton newCategory" update="category3 categoryPath addCategoryButton newCategory" />  
+					    </h:selectOneListbox>
+					 	<h:selectOneListbox id="category3" value="#{dashboardManagedBean.subcategoryId2}"  style="height: 200px; vertical-align:top;" valueChangeListener="#{dashboardManagedBean.categoryChange}" >
+					        <f:selectItems value="#{dashboardManagedBean.subcategoriesSecondLevel}" var="category" itemValue="#{category.id}" itemLabel="#{category.name}" />
+					        <f:ajax event="change" render="categoryPath addCategoryButton newCategory" update="categoryPath addCategoryButton newCategory" />  
+					    </h:selectOneListbox>
+	                <p:commandButton value="#{msg.delete}" action="#{dashboardManagedBean.deleteCategory}" ajax="false"/>
+	                </h:panelGrid>  
+	                <br/>
+	                <h:outputText value="${dashboardManagedBean.categoryPath}" id="categoryPath" />
+	                <br/>
+	                <p:outputLabel value="#{msg['label.newCategory']}"/>
+	                <p:inputText id="newCategory" value="#{dashboardManagedBean.newCategoryName}" disabled="#{dashboardManagedBean.selectedCategory.nodeHeight eq 2}"/>
+	                <p:commandButton id="addCategoryButton" value="#{msg.add}" action="#{dashboardManagedBean.addCategory}" ajax="false" disabled="#{dashboardManagedBean.selectedCategory.nodeHeight eq 2}"/>
+	            </p:panel>  
+		    </h:form>    
+			</p:tab>
+		    <p:tab title="#{msg.statistics}">  
+		    </p:tab>  
+		</p:accordionPanel>  
+	</ui:define>
+</ui:composition>

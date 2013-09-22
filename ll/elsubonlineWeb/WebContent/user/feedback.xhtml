@@ -1,0 +1,29 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"
+	template="/templates/template.xhtml">
+	
+	<ui:define name="metadata">
+	</ui:define>
+
+	<ui:define name="content">
+	<p:panel header="#{msg.pendingOperations}">
+		<h:form id="finishOperationForm" rendered="#{feedbackManagedBean.pendingOperations.size() gt 0}">
+	 		<h:outputText value="#{msg.tellIfProductWasSold}" /><br/><br/>
+		 		<ui:repeat var="operation" value="#{feedbackManagedBean.pendingOperations}" varStatus="status">
+					<h:outputText value="#{operation.product.shortDescription}" /><br/>
+					<p:selectOneRadio id="option#{operation.id}" value="#{operation.successful}" required="true" >  
+			            <f:selectItem itemLabel="#{msg.yes}" itemValue="true"  />  
+			            <f:selectItem itemLabel="#{msg.no}" itemValue="false" />  
+			        </p:selectOneRadio>
+					<p:separator/>
+	   			</ui:repeat>
+	   			<p:commandButton value="#{msg.save}" action="#{feedbackManagedBean.save}" ajax="false" update="finishOperationForm"/>
+		</h:form>
+		<h:outputText value="#{msg.noPendingOperations}"  rendered="#{feedbackManagedBean.pendingOperations.size() eq 0}"/><br/><br/>
+	</p:panel>
+	
+	</ui:define>
+</ui:composition>
